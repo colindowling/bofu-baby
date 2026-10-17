@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>BoFu, Baby | Bottom-of-funnel content that books pipeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--lbg:#eef3fa;--lacc:#c4500a;--bg:#1f3a5f;--bg2:#284a77;--ink:#f6f1e8;--soft:#a9bbd4;--body:#dbe4f0;--acc:#ff7a2f;--on:#14233a;--ctabg:#ff7a2f;--ctafg:#14233a;--ctasoft:#5a2d14;--ctaacc:#fff;--ctabtn:#14233a;--ctabtnfg:#f6f1e8;--rule:color-mix(in srgb,var(--ink) 18%,transparent);--hw:700;--hls:-.03em}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'Instrument Sans',sans-serif;font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1160px;margin:0 auto;padding:0 40px}
+.serif{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1}
+/* nav */
+nav{display:flex;justify-content:space-between;align-items:center;padding:30px 0}
+.logo{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:900;font-size:30px;letter-spacing:-.03em;line-height:1;display:flex;align-items:baseline}
+.logo .c{color:var(--acc);margin-right:.18em}
+.logo .b{font-style:italic;font-weight:600;color:var(--acc)}
+.pill{display:inline-block;background:var(--acc);color:var(--on);font-weight:600;font-size:16px;text-decoration:none;padding:14px 28px;border-radius:2px;transition:background .2s,transform .2s}
+.pill:hover{filter:brightness(1.12);transform:translateY(-2px)}
+.pill.sm{padding:11px 22px;font-size:15px}
+.link{color:var(--ink);font-weight:500;text-decoration:none;border-bottom:1.5px solid var(--ink);padding-bottom:2px}
+.link:hover{color:var(--acc);border-color:var(--acc)}
+/* hero */
+.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:72px;align-items:center;padding:64px 0 104px}
+.kick{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);font-weight:500;margin-bottom:28px}
+h1{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:400;line-height:1}
+h1 .l1{display:block;font-style:italic;font-weight:300;font-size:clamp(36px,calc(4.2vw + 2px),60px);color:var(--soft);margin-bottom:6px;letter-spacing:-.02em}
+h1 .l2{display:block;font-weight:var(--hw);font-size:clamp(54px,8.6vw,124px);line-height:.92;letter-spacing:var(--hls);color:var(--acc)}
+.hero p.sub{max-width:520px;margin:34px 0 36px;font-size:20px;color:var(--body)}
+.cta-row{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+/* funnel */
+.funnel{width:100%;max-width:340px;margin-left:auto}
+.tip{fill:var(--acc)}.funnel{color:var(--ink)}.funnel svg{width:100%;height:auto;display:block;overflow:visible}
+.fl{font-family:'Instrument Sans';font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;fill:var(--soft);font-weight:500}
+.fl.hot{fill:var(--on);font-weight:600}
+.fish{text-align:center;margin-top:14px;font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-style:italic;font-weight:600;font-size:22px;color:var(--acc)}
+.fish span{display:inline-block;animation:up 1.6s ease-in-out infinite}
+@keyframes up{50%{transform:translateY(-5px)}}
+/* sections */
+section{padding:112px 0}
+.eyebrow{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);font-weight:600;margin-bottom:18px}
+h2{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:800;font-size:clamp(38px,5vw,66px);line-height:1.02;letter-spacing:-.035em;max-width:880px}
+h2 em{font-style:italic;font-weight:500;color:var(--acc)}
+.lead{max-width:640px;margin-top:24px;color:var(--body);font-size:20px}
+/* compare */
+.cmp{display:grid;grid-template-columns:1fr 1fr;margin-top:64px;border-top:1px solid var(--ink)}
+.col{padding:36px 40px 12px 0}
+.col+.col{padding:36px 0 12px 40px;border-left:1px solid var(--rule)}
+.col h3{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:700;font-size:26px;letter-spacing:-.02em;margin-bottom:18px}
+.col.us h3{color:var(--acc)}
+.col li{list-style:none;padding:14px 0;border-top:1px solid var(--rule);display:flex;gap:14px}
+.col li:before{content:'\2715';color:var(--soft);font-size:13px;margin-top:6px}
+.col.us li:before{content:'\2713';color:var(--acc);font-weight:700;font-size:16px;margin-top:2px}
+.col:not(.us) li{color:var(--soft)}
+/* flow */
+.flow{background:var(--bg2)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;margin-top:64px;position:relative}
+.steps:before{content:'';position:absolute;left:0;right:0;top:27px;border-top:1.5px dashed color-mix(in srgb,var(--ink) 35%,transparent)}
+.step .n{position:relative;width:56px;height:56px;border-radius:0;background:var(--bg2);border:1.5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:800;font-size:22px}
+.step:last-child .n{background:var(--acc);border-color:var(--acc);color:var(--on)}
+.step h4{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:700;font-size:24px;letter-spacing:-.02em;margin:22px 0 8px}
+.step p{font-size:16px;color:var(--body)}
+/* index list */
+.idx{margin-top:64px;border-top:1px solid var(--ink)}
+.row{display:grid;grid-template-columns:90px 1.1fr 1.4fr 150px;gap:24px;align-items:baseline;padding:28px 0;border-bottom:1px solid var(--rule);transition:padding .25s,background .25s}
+.row:hover{padding-left:16px;background:color-mix(in srgb,var(--acc) 8%,transparent)}
+.row .no{font-family:'Fraunces',serif;font-style:italic;font-size:22px;color:var(--soft)}
+.row h4{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:700;font-size:28px;letter-spacing:-.02em;line-height:1.15}
+.row p{font-size:16px;color:var(--body)}
+.row .tag{justify-self:end;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);font-weight:600;white-space:nowrap}
+/* scoreboard */
+.score{display:grid;grid-template-columns:1fr 1fr;gap:72px;margin-top:64px}
+.score h3{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--soft);font-weight:600;margin-bottom:6px}
+.score .r{display:flex;justify-content:space-between;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--rule);font-size:20px}
+.score .old .r span{color:var(--soft);text-decoration:line-through;text-decoration-color:var(--acc);text-decoration-thickness:1.5px}
+.score .new h3{color:var(--acc)}
+.score .new .r b{font-family:'Fraunces',serif;color:var(--acc);font-weight:900;font-size:24px}
+.score .new .r span{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:600;font-size:26px;letter-spacing:-.02em}
+/* cta */
+.cta{background:var(--ctabg);color:var(--ctafg);padding:128px 0;text-align:center}
+.cta h2{margin:0 auto;color:var(--ctafg)}.cta h2 em{color:var(--ctaacc)}
+.cta .lead{margin:24px auto 0;color:var(--ctasoft)}
+form{max-width:680px;margin:56px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:28px 32px;text-align:left}
+form .f{display:flex;flex-direction:column;gap:6px}form .full{grid-column:1/-1}
+label{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ctasoft)}
+input,select{background:transparent;border:0;border-bottom:1.5px solid color-mix(in srgb,var(--ctafg) 40%,transparent);color:var(--ctafg);font:inherit;font-size:19px;padding:8px 0 10px;outline:0;border-radius:0}
+input::placeholder{color:color-mix(in srgb,var(--ctafg) 35%,transparent)}
+input:focus,select:focus{border-color:var(--ctaacc)}
+select option{color:#111;background:#fff}
+form .go{grid-column:1/-1;text-align:center;margin-top:12px}
+form button{cursor:pointer;border:0;font:inherit;font-weight:600;font-size:18px;padding:18px 44px;border-radius:999px;background:var(--ctabtn);color:var(--ctabtnfg);transition:.2s}
+form button:hover{filter:brightness(1.12);transform:translateY(-2px)}
+footer{padding:36px 0;font-size:14px;color:var(--soft);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:900px){.wrap{padding:0 24px}.hero{grid-template-columns:1fr;gap:48px}.funnel{margin:0;max-width:300px}.cmp,.score{grid-template-columns:1fr;gap:0}.col,.col+.col{padding:28px 0 8px;border-left:0}.col+.col{border-top:1px solid var(--ink);margin-top:24px}.score .new{margin-top:48px}.steps{grid-template-columns:1fr 1fr;gap:48px 28px}.steps:before{display:none}.row{grid-template-columns:44px 1fr;gap:6px 14px}.row p,.row .tag{grid-column:2;justify-self:start}form{grid-template-columns:1fr}section{padding:80px 0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.tb{position:sticky;top:0;z-index:50;background:#fff;color:#111;border-bottom:1px solid rgba(0,0,0,.12);font:600 12px 'Instrument Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.tb .in{max-width:1160px;margin:0 auto;padding:8px 40px;display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.tb .g{display:flex;gap:8px;align-items:center}
+.tb input{position:absolute;opacity:0;pointer-events:none}
+.tb label.sw{width:28px;height:28px;border-radius:50%;cursor:pointer;border:2px solid #fff;outline:1.5px solid rgba(0,0,0,.25)}
+.tb input:checked+label.sw{outline:2.5px solid #111}
+.tb label.wb{min-width:44px;height:28px;border-radius:999px;background:#eee;color:#111;display:flex;align-items:center;justify-content:center;padding:0 12px;cursor:pointer;font-size:13px;letter-spacing:0;text-transform:none}
+.tb input:checked+label.wb{background:#111;color:#fff}
+.tb .nm{text-transform:none;letter-spacing:0;font-weight:500;font-size:13px;color:#555}
+@media(max-width:700px){.tb .in{padding:8px 16px;gap:12px}}
+section.lb{background:var(--lbg);--ink:#0f1a2e;--soft:#55657f;--body:#2b3a55;--acc:var(--lacc);--rule:rgba(15,26,46,.18);color:#0f1a2e}
+.logo-img{display:block;line-height:0}.logo-img img{height:66px;width:auto;display:block}@media(max-width:700px){.logo-img img{height:52px}}
+.logo-img img{height:60px}@media(max-width:700px){.logo-img img{height:48px}}
+
+.tiles{padding:0}
+.tg{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.tile{background:color-mix(in srgb,var(--ink) var(--m),var(--bg));border-radius:0;min-height:128px;padding:28px 32px;display:flex;align-items:center;font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:600;font-size:24px;line-height:1.12;letter-spacing:-.02em;color:var(--ink)}
+@media(max-width:700px){.tg{grid-template-columns:repeat(2,1fr)}.tile{min-height:84px;font-size:19px;padding:18px 20px}}
+.cta-go{margin-top:44px}.cta .pill{background:var(--ctabtn);color:var(--ctabtnfg);padding:18px 44px;font-size:18px}
+
+.menu{display:flex;gap:36px;list-style:none;align-items:center;margin:0;padding:0}
+.menu a{color:var(--ink);text-decoration:none;font-weight:500;font-size:16px;padding:6px 0;border-bottom:1.5px solid transparent;transition:color .2s,border-color .2s}
+.menu a:hover,.menu a[aria-current=page]{color:var(--acc);border-color:var(--acc)}
+@media(max-width:700px){.menu{gap:20px}.menu a{font-size:15px}}
+</style></head><body>
+<div class="wrap">
+<nav><a href="/" class="logo-img"><img src="/assets/logo.svg" alt="BoFu, Baby" height="60"></a><ul class="menu"><li><a href="/about/">About</a></li><li><a href="/blog/">Resources</a></li><li><a href="/contact/">Contact</a></li></ul></nav>
+<div class="hero"><div>
+<h1><span class="l1">Traffic is vanity.</span><span class="l2">Pipeline is sanity.</span></h1>
+<p class="sub">We build bottom-of-funnel content engines for B2B companies: content written for buyers who are already shopping, each one wired to a direct-response landing page that turns them into qualified leads.</p>
+<div class="cta-row"><a class="pill" href="/contact/">See the traffic you're missing</a><a class="link" href="#how">See how the engine works</a></div>
+</div>
+<div class="funnel">
+<svg viewBox="0 0 340 330" role="img" aria-label="A funnel with only the bottom tier highlighted as ready to buy">
+<g fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1.5" stroke-linejoin="round">
+<path d="M10 8H330L312 70H28Z"/><path d="M42 82H298L284 144H56Z"/><path d="M74 156H266L254 212H86Z"/></g>
+<path class="tip" d="M84 224H256L228 322H112Z"/>
+<text class="fl" x="170" y="44" text-anchor="middle">Awareness</text>
+<text class="fl" x="170" y="118" text-anchor="middle">Consideration</text>
+<text class="fl" x="170" y="190" text-anchor="middle">Comparison</text>
+<text class="fl hot" x="170" y="268" text-anchor="middle">Ready to buy</text>
+</svg>
+<div class="fish"><span>&uarr;</span> We only fish here <span>&uarr;</span></div>
+</div>
+</div></div>
+
+<div class="tiles"><div class="wrap"><div class="tg"><div class="tile" style="--m:6%"><span>Alternatives pages</span></div><div class="tile" style="--m:10%"><span>Vs pages</span></div><div class="tile" style="--m:14%"><span>Pricing intent</span></div><div class="tile" style="--m:18%"><span>Best-of lists</span></div><div class="tile" style="--m:22%"><span>Integration pages</span></div><div class="tile" style="--m:26%"><span>Switching guides</span></div></div></div></div>
+
+<section><div class="wrap">
+<h2>Your site has traffic.<br><em>So why is your pipeline empty?</em></h2>
+<p class="lead">Top-of-funnel content gets you readers. Bottom-of-funnel content gets you the people typing "[competitor] alternative" and "[category] pricing" into Google with a budget and a deadline.</p>
+<div class="cmp">
+<div class="col"><h3>The usual content plan</h3><ul><li>Chases volume and rankings</li><li>Reports sessions and impressions</li><li>Ends at a generic "Contact us"</li><li>Sales never sees the results</li></ul></div>
+<div class="col us"><h3>The BoFu, Baby plan</h3><ul><li>Targets buyers with a problem and a budget</li><li>Reports qualified leads and pipeline</li><li>Ends at a page built to convert that exact reader</li><li>Sales gets named, high-intent prospects</li></ul></div>
+</div></div></section>
+
+<section class="flow" id="how"><div class="wrap">
+<div class="eyebrow">The engine</div>
+<h2>One engine. <em>Four moving parts.</em></h2>
+<div class="steps">
+<div class="step"><div class="n">1</div><h4>Find the intent</h4><p>We map the searches buyers make right before they pick a vendor.</p></div>
+<div class="step"><div class="n">2</div><h4>Write the content</h4><p>Posts, comparisons and guides that answer the buying question and take a position.</p></div>
+<div class="step"><div class="n">3</div><h4>Route to a closer</h4><p>Each piece points to its own direct-response landing page, matched to the reader's intent.</p></div>
+<div class="step"><div class="n">4</div><h4>Capture the lead</h4><p>Short form, clear offer, routed to your team with source and intent attached.</p></div>
+</div></div></section>
+
+<section class="lb"><div class="wrap">
+<div class="eyebrow">What we make</div>
+<h2>Content that <em>closes,</em> not content that fills a calendar.</h2>
+<div class="idx">
+<div class="row"><div class="no">01</div><h4>Alternatives and vs pages</h4><p>Capture buyers evaluating you against a named competitor.</p><div class="tag">Highest intent</div></div>
+<div class="row"><div class="no">02</div><h4>Pricing and cost guides</h4><p>Meet the buyer at the budget conversation, before a rep does.</p><div class="tag">Buying now</div></div>
+<div class="row"><div class="no">03</div><h4>Best-of and roundup posts</h4><p>Own the shortlist your prospects are already reading.</p><div class="tag">Comparison</div></div>
+<div class="row"><div class="no">04</div><h4>Migration and switching guides</h4><p>Convert people actively unhappy with their current vendor.</p><div class="tag">Switching</div></div>
+<div class="row"><div class="no">05</div><h4>Integration and use-case pages</h4><p>Answer the "does it work with our stack" question that stalls deals.</p><div class="tag">Evaluation</div></div>
+<div class="row"><div class="no">06</div><h4>Case studies with a point of view</h4><p>Outcome-led stories sales can send in the final stretch.</p><div class="tag">Proof</div></div>
+</div></div></section>
+
+<section><div class="wrap">
+<h2>Measure what <em>actually</em> pays the bills.</h2>
+<div class="score">
+<div class="old"><h3>The old scoreboard</h3><div class="r"><span>Monthly sessions</span></div><div class="r"><span>Keyword rankings</span></div><div class="r"><span>Social shares</span></div></div>
+<div class="new"><h3>The BoFu scoreboard</h3><div class="r"><span>Qualified leads per page</span><b>&#10003;</b></div><div class="r"><span>Meetings booked from content</span><b>&#10003;</b></div><div class="r"><span>Pipeline and closed-won sourced</span><b>&#10003;</b></div></div>
+</div></div></section>
+
+<section class="cta" id="book"><div class="wrap">
+<h2>Want leads who show up <em>ready to buy?</em></h2>
+<p class="lead">Get a free BoFu Audit: the 10 highest-intent searches your buyers are making right now, and where you are missing from them.</p>
+<div class="cta-go"><a class="pill" href="/contact/">Get your BoFu Audit</a></div></div></section>
+<div class="wrap"><footer><span>&copy; BoFu, Baby</span><span>Qualified leads. Real customers. No vanity metrics.</span></footer></div>
+</body></html>
