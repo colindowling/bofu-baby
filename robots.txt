@@ -1,2 +1,6 @@
+# BoFu, Baby / www.bofubaby.com
+# Crawling is open to search engines and AI agents alike.
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://www.bofubaby.com/sitemap.xml

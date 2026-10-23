@@ -1,0 +1,10 @@
+# BoFu, Baby
+
+> Bottom-of-funnel content engines for B2B companies: content written for buyers who are already shopping, each piece wired to a direct-response landing page that turns them into qualified leads.
+
+## Pages
+- [Home](https://www.bofubaby.com/): What BoFu, Baby does and how the engine works
+- [About](https://www.bofubaby.com/about/)
+- [Resources](https://www.bofubaby.com/blog/)
+- [Contact](https://www.bofubaby.com/contact/): Book a call
+- [Free 15-minute keyword plan](https://www.bofubaby.com/15minutes5xtraffic/): Five BOFU keywords, a rank plan for each, AI citation gap and full keyword matrix
