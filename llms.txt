@@ -1,10 +1,12 @@
 # BoFu, Baby
 
-> Bottom-of-funnel content engines for B2B companies: content written for buyers who are already shopping, each piece wired to a direct-response landing page that turns them into qualified leads.
+> Bottom-of-funnel content engines for B2B companies: pages written for buyers who are already shopping, built to rank on Google and to get named by ChatGPT, Perplexity, Google AI Overviews and Claude when those buyers ask who to use. Published prices: the BoFu Map is $1,500 (credited in full); the 90-Day BoFu Build is $22,500 over 90 days ($9,000, $7,500, $6,000); Defend & Expand is $4,500/mo after; Monitor is $1,500/mo.
 
 ## Pages
-- [Home](https://www.bofubaby.com/): What BoFu, Baby does and how the engine works
+- [Home](https://www.bofubaby.com/): What BoFu, Baby does, how AI citation (AEO) is measured, and the five-part engine
+- [Pricing](https://www.bofubaby.com/pricing/): Step-down fee, what ships each month, Defend & Expand, guarantee, add-ons, terms and FAQ
+- [The BoFu Map](https://www.bofubaby.com/bofu-map/): $1,500, five business days, the complete bottom-of-funnel keyword set with an AI citation baseline
 - [About](https://www.bofubaby.com/about/)
 - [Resources](https://www.bofubaby.com/blog/)
-- [Contact](https://www.bofubaby.com/contact/): Book a call
-- [Free 15-minute keyword plan](https://www.bofubaby.com/15minutes5xtraffic/): Five BOFU keywords, a rank plan for each, AI citation gap and full keyword matrix
+- [Contact](https://www.bofubaby.com/contact/): Book a free 15-minute call
+- [Free 15-minute keyword plan](https://www.bofubaby.com/15minutes5xtraffic/): Five BOFU keywords, a rank plan for each, AI citation gap
