@@ -13,7 +13,7 @@ body{background:var(--bg);color:var(--ink);font-family:'Instrument Sans',sans-se
 .wrap{max-width:1160px;margin:0 auto;padding:0 40px}
 .serif{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1}
 /* nav */
-nav{display:flex;justify-content:space-between;align-items:center;padding:30px 0}
+nav{display:flex;justify-content:space-between;align-items:center;gap:16px 28px;flex-wrap:wrap;padding:30px 0}
 .logo{font-family:'Fraunces',serif;font-variation-settings:'SOFT' 100,'WONK' 1;font-weight:900;font-size:30px;letter-spacing:-.03em;line-height:1;display:flex;align-items:baseline}
 .logo .c{color:var(--acc);margin-right:.18em}
 .logo .b{font-style:italic;font-weight:600;color:var(--acc)}
@@ -97,7 +97,7 @@ select option{color:#111;background:#fff}
 form .go{grid-column:1/-1;text-align:center;margin-top:12px}
 form button{cursor:pointer;border:0;font:inherit;font-weight:600;font-size:18px;padding:18px 44px;border-radius:999px;background:var(--ctabtn);color:var(--ctabtnfg);transition:.2s}
 form button:hover{filter:brightness(1.12);transform:translateY(-2px)}
-footer{padding:36px 0;font-size:14px;color:var(--soft);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer{padding:36px 0;font-size:14px;color:var(--soft);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}footer .flinks{display:flex;flex-wrap:wrap;gap:8px 16px}footer .flinks a{color:var(--soft);text-decoration:none}footer .flinks a:hover,footer .flinks a[aria-current=page]{color:var(--acc)}.idx a.row{color:inherit;text-decoration:none}
 @media(max-width:900px){.wrap{padding:0 24px}.hero{grid-template-columns:1fr;gap:48px}.funnel{margin:0;max-width:300px}.cmp,.score{grid-template-columns:1fr;gap:0}.col,.col+.col{padding:28px 0 8px;border-left:0}.col+.col{border-top:1px solid var(--ink);margin-top:24px}.score .new{margin-top:48px}.steps{grid-template-columns:1fr 1fr;gap:48px 28px}.steps:before{display:none}.row{grid-template-columns:44px 1fr;gap:6px 14px}.row p,.row .tag{grid-column:2;justify-self:start}form{grid-template-columns:1fr}section{padding:80px 0}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
 
@@ -126,14 +126,14 @@ section.lb{background:var(--lbg);--ink:#0f1a2e;--soft:#55657f;--body:#2b3a55;--a
 .logo-img img{height:60px}@media(max-width:700px){.logo-img img{height:48px}}
 .cal .alt{margin:0;padding:6px 14px 10px;color:#55657f;font-size:14px}.cal .alt a{color:#c4500a;border-bottom:1.5px solid #c4500a}.cal .alt a:hover{color:#14233a;border-color:#14233a}
 
-.menu{display:flex;gap:36px;list-style:none;align-items:center;margin:0;padding:0}
+.menu{display:flex;gap:22px;list-style:none;align-items:center;margin:0;padding:0;flex-wrap:wrap;justify-content:flex-end}
 .menu a{color:var(--ink);text-decoration:none;font-weight:500;font-size:16px;padding:6px 0;border-bottom:1.5px solid transparent;transition:color .2s,border-color .2s}
 .menu a:hover,.menu a[aria-current=page]{color:var(--acc);border-color:var(--acc)}
-@media(max-width:700px){.menu{gap:20px}.menu a{font-size:15px}}
+@media(max-width:700px){.menu{gap:12px 16px}.menu a{font-size:14px}}
 </style></head>
 <body>
 <div class="wrap">
-<nav><a href="/" class="logo-img"><img src="/assets/logo.svg" alt="BoFu, Baby" height="60"></a><ul class="menu"><li><a href="/pricing/">Pricing</a></li><li><a href="/about/">About</a></li><li><a href="/blog/">Resources</a></li><li><a href="/contact/" aria-current="page">Contact</a></li></ul></nav>
+<nav><a href="/" class="logo-img"><img src="/assets/logo.svg" alt="BoFu, Baby" height="60"></a><ul class="menu"><li><a href="/services/">Services</a></li><li><a href="/pricing/">Pricing</a></li><li><a href="/bofu-map/">BoFu Map</a></li><li><a href="/15minutes5xtraffic/">15 minutes</a></li><li><a href="/about/">About</a></li><li><a href="/blog/">Resources</a></li><li><a href="/contact/" aria-current="page">Contact</a></li></ul></nav>
 <div class="ct"><div>
 <h1><span class="l1">A free 15-minute call.</span><span class="l2">See what you're missing.</span></h1>
 <p class="sub">Pick a time that works for you. We'll give you five high-intent searches your buyers are making right now, where you're missing from them, and whether the AIs are naming you or your competitor. Yours to keep either way.</p>
@@ -142,7 +142,16 @@ section.lb{background:var(--lbg);--ink:#0f1a2e;--soft:#55657f;--body:#2b3a55;--a
 <div class="cal"><div class="calendly-inline-widget" data-url="https://calendly.com/30minutechat/20-minute-content-chat?hide_event_type_details=1&hide_gdpr_banner=1&background_color=ffffff&text_color=0f1a2e&primary_color=e8590c&utm_source=bofu-baby&utm_medium=website&utm_campaign=bofu_contact_page&utm_content=BOFU_BABY&utm_term=contact-page"></div>
 <p class="alt">Calendar not loading? <a class="link" href="https://calendly.com/30minutechat/20-minute-content-chat?utm_source=bofu-baby&utm_medium=website&utm_campaign=bofu_contact_page&utm_content=BOFU_BABY&utm_term=contact-fallback" target="_blank" rel="noopener noreferrer">Open the booking page in a new tab</a>.</p></div>
 </div></div>
-<div class="wrap"><footer><span>&copy; BoFu, Baby</span><span>Qualified leads. Real customers. No vanity metrics.</span></footer></div>
+<!-- hub:call -->
+<section id="call-notes" style="padding:72px 0"><div class="wrap">
+<div class="eyebrow">Resources</div>
+<h2>Notes on <em>the 15-minute call.</em></h2>
+<div class="idx">
+<a class="row" href="/blog/what-the-free-15-minute-call-includes/"><div class="no">01</div><h4>What you leave the free 15-minute call with</h4><p>On a free 15-minute call you get five high-intent searches, where you are missing from them, and whether the AIs are naming you or a competitor. You keep it either way.</p><div class="tag">Note</div></a>
+</div>
+</div></section>
+<!-- /hub:call -->
+<div class="wrap"><footer><span>&copy; BoFu, Baby</span><span class="flinks"><a href="/services/">Services</a><a href="/pricing/">Pricing</a><a href="/bofu-map/">BoFu Map</a><a href="/15minutes5xtraffic/">15 minutes</a><a href="/about/">About</a><a href="/blog/">Resources</a><a href="/contact/" aria-current="page">Contact</a></span><span>Qualified leads. Real customers. No vanity metrics.</span></footer></div>
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </body></html>
