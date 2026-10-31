@@ -6,7 +6,15 @@
 - [Home](https://www.bofubaby.com/): What BoFu, Baby does, how AI citation (AEO) is measured, and the five-part engine
 - [Pricing](https://www.bofubaby.com/pricing/): Step-down fee, what ships each month, Defend & Expand, guarantee, add-ons, terms and FAQ
 - [The BoFu Map](https://www.bofubaby.com/bofu-map/): $1,500, five business days, the complete bottom-of-funnel keyword set with an AI citation baseline
-- [About](https://www.bofubaby.com/about/)
+- [Services](https://www.bofubaby.com/services/): Published offers. Free 15-minute call, the BoFu Map ($1,500), the 90-Day BoFu Build ($22,500), Defend & Expand ($4,500/mo), Monitor ($1,500/mo). Full schedule on Pricing.
+- [About](https://www.bofubaby.com/about/): Colin Dowling writes the notes. Podcast: Modern Business Life (https://modernbusiness.life/)
 - [Resources](https://www.bofubaby.com/blog/)
 - [Contact](https://www.bofubaby.com/contact/): Book a free 15-minute call
 - [Free 15-minute keyword plan](https://www.bofubaby.com/15minutes5xtraffic/): Five BOFU keywords, a rank plan for each, AI citation gap
+
+## Posts
+<!-- posts:start -->
+- [What you leave the free 15-minute call with](https://www.bofubaby.com/blog/what-the-free-15-minute-call-includes/): On a free 15-minute call you get five high-intent searches, where you are missing from them, and whether the AIs are naming you or a competitor. You keep it either way.
+- [Ranking and getting cited are two different jobs](https://www.bofubaby.com/blog/ranking-and-getting-cited/): BoFu, Baby measures AI citation separately from rank: ten buyer-intent questions, five runs each, across four platforms. That is 200 checks a month.
+- [Bottom-of-funnel search is a list you can finish](https://www.bofubaby.com/blog/bottom-of-funnel-search-is-finite/): Bottom-of-funnel searches in a B2B category are finite: alternatives, versus, pricing, best-for, switching and integrations. The BoFu Map counts that list.
+<!-- posts:end -->
