@@ -11,6 +11,9 @@
 - [Resources](https://www.bofubaby.com/blog/)
 - [Contact](https://www.bofubaby.com/contact/): Book a free 15-minute call
 - [Free 15-minute keyword plan](https://www.bofubaby.com/15minutes5xtraffic/): Five BOFU keywords, a rank plan for each, AI citation gap
+- [How to get your B2B company cited by ChatGPT](https://www.bofubaby.com/how-to-get-cited-by-chatgpt/): ChatGPT cites listicles, directories, Reddit, and pages that answer a buying question in the first lines. How a B2B company gets into that set.
+- [AEO specialist vs SEO agency](https://www.bofubaby.com/aeo-specialist-vs-seo-agency/): An AEO-only specialist tracks mentions. A traditional SEO agency sells traffic. Here is how both differ from decision pages built to rank and get cited.
+- [Bottom-of-funnel content for B2B SaaS](https://www.bofubaby.com/bofu-content-for-saas/): Comparisons, alternatives, pricing-intent and use-case pages for B2B SaaS: the pages buyers read before they purchase, wired to a conversion and to citation.
 
 ## Posts
 <!-- posts:start -->
