@@ -89,6 +89,14 @@ CTAS = {
 
 # lastmod for pages this script does not rewrite from a post date.
 # /blog/ and post URLs are dated from the posts themselves.
+# Unlisted landing pages. They stay out of NAV_MENU, NAV_LINKS, and the homepage.
+# write_sitemap() rebuilds sitemap.xml from this list, which is what keeps them.
+UNLISTED_PATHS = [
+    "/how-to-get-cited-by-chatgpt/",
+    "/aeo-specialist-vs-seo-agency/",
+    "/bofu-content-for-saas/",
+]
+
 STATIC_SITEMAP = [
     ("https://www.bofubaby.com/", "2026-10-31"),
     ("https://www.bofubaby.com/services/", "2026-10-31"),
@@ -97,6 +105,9 @@ STATIC_SITEMAP = [
     ("https://www.bofubaby.com/about/", "2026-10-31"),
     ("https://www.bofubaby.com/contact/", "2026-10-31"),
     ("https://www.bofubaby.com/15minutes5xtraffic/", "2026-10-23"),
+    ("https://www.bofubaby.com/how-to-get-cited-by-chatgpt/", "2026-11-01"),
+    ("https://www.bofubaby.com/aeo-specialist-vs-seo-agency/", "2026-11-01"),
+    ("https://www.bofubaby.com/bofu-content-for-saas/", "2026-11-01"),
 ]
 
 NAV_LINKS = [
@@ -1002,11 +1013,134 @@ def check_video_slot() -> list[str]:
     return errors
 
 
+def check_unlisted_pages() -> list[str]:
+    """Landing pages that are in the sitemap and llms.txt, and absent from the nav."""
+    errors: list[str] = []
+    sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
+    llms = (ROOT / "llms.txt").read_text(encoding="utf-8")
+    home = (ROOT / "index.html").read_text(encoding="utf-8")
+    nav_hrefs = {href for href, _label in NAV_LINKS}
+    for entry in NAV_MENU:
+        if entry[0] == "link":
+            nav_hrefs.add(entry[1])
+        elif entry[0] == "group":
+            for href, _label in entry[3]:
+                nav_hrefs.add(href)
+    for path in UNLISTED_PATHS:
+        url = f"{SITE}{path}"
+        campaign = path.strip("/")
+        if url not in sitemap:
+            errors.append(f"sitemap missing {path}")
+        if url not in llms:
+            errors.append(f"llms.txt missing {path}")
+        if path in nav_hrefs:
+            errors.append(f"{path} is in the nav")
+        if f'href="{path}"' in home:
+            errors.append(f"homepage links to {path}")
+        page_path = ROOT / campaign / "index.html"
+        if not page_path.is_file():
+            errors.append(f"missing page {path}")
+            continue
+        page = page_path.read_text(encoding="utf-8")
+        nav_html, _, after_nav = page.partition("</nav>")
+        if f'href="{path}"' in nav_html:
+            errors.append(f"{path} is linked from its own nav")
+        if page.count("<h1") != 1:
+            errors.append(f"{path} has {page.count('<h1')} h1 elements")
+        if page.count(f"utm_campaign={campaign}") < 2:
+            errors.append(f"{path} needs the CTA in the body and at the end")
+        if "utm_source=bofubaby" not in page or "utm_medium=bofu_page" not in page:
+            errors.append(f"{path} CTA is missing utm_source or utm_medium")
+        if 'href="/services/"' not in page:
+            errors.append(f"{path} missing a link to /services/")
+        blogs = set(re.findall(r'href="(/blog/[a-z0-9-]+/)"', page))
+        if len(blogs) < 2:
+            errors.append(f"{path} links to {len(blogs)} blog posts")
+        for other in UNLISTED_PATHS:
+            if other != path and f'href="{other}"' not in page:
+                errors.append(f"{path} does not cross-link {other}")
+        article = re.search(r"<article\b[\s\S]*</article>", page)
+        if not article:
+            errors.append(f"{path} missing article")
+        else:
+            chunk = re.sub(r"<script\b[\s\S]*?</script>", " ", article.group(0))
+            text = html.unescape(re.sub(r"<[^>]+>", " ", chunk))
+            count = len(re.findall(r"[A-Za-z0-9]+(?:'[A-Za-z0-9]+)?", text))
+            if not 900 <= count <= 1500:
+                errors.append(f"{path} word count {count} is outside 900-1500")
+        answer = re.search(r'<p class="answer">(.*?)</p>', page, re.S)
+        if not answer:
+            errors.append(f"{path} missing the answer paragraph under the h1")
+        else:
+            answer_text = html.unescape(re.sub(r"<[^>]+>", " ", answer.group(1)))
+            # llms.txt is one name, not two sentences.
+            answer_text = re.sub(r"\.txt\b", " txt", answer_text)
+            sentences = [part for part in re.split(r"[.!?]+", answer_text) if part.strip()]
+            if not 2 <= len(sentences) <= 3:
+                errors.append(f"{path} answer paragraph has {len(sentences)} sentences")
+        lowered = page.lower()
+        for banned in ("colin", "guarantee", "money-back", "money back", "ghostwrit"):
+            if banned in lowered:
+                errors.append(f"{path} contains {banned!r}")
+        if "$" in page:
+            errors.append(f"{path} contains a dollar figure")
+        visible = re.sub(r"<script\b[\s\S]*?</script>", " ", page)
+        blocks = re.findall(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', page, re.S)
+        types = []
+        saw_publisher = False
+        saw_modified = False
+        for block in blocks:
+            try:
+                data = json.loads(block)
+            except json.JSONDecodeError as exc:
+                errors.append(f"{path}: JSON-LD does not parse ({exc})")
+                continue
+            if data.get("@context") != "https://schema.org":
+                errors.append(f"{path}: JSON-LD @context is {data.get('@context')}")
+            kind = data.get("@type")
+            types.append(kind)
+            if kind == "WebPage":
+                publisher = data.get("publisher") or {}
+                if publisher.get("@type") == "Organization" and publisher.get("name") == "BoFu, Baby":
+                    saw_publisher = True
+                if data.get("dateModified"):
+                    saw_modified = True
+            if kind == "Service":
+                provider = data.get("provider") or {}
+                if provider.get("@type") == "Organization" and provider.get("name") == "BoFu, Baby":
+                    saw_publisher = True
+                if data.get("dateModified"):
+                    saw_modified = True
+            if kind == "FAQPage":
+                questions = data.get("mainEntity") or []
+                if not 4 <= len(questions) <= 6:
+                    errors.append(f"{path}: FAQPage has {len(questions)} questions")
+                for question in questions:
+                    answer_text = ((question.get("acceptedAnswer") or {}).get("text")) or ""
+                    if not answer_text:
+                        errors.append(f"{path}: FAQ answer is empty")
+                    elif answer_text not in visible and esc(answer_text) not in visible:
+                        errors.append(f"{path}: FAQ answer is not visible")
+            if kind == "BreadcrumbList" and len(data.get("itemListElement") or []) < 2:
+                errors.append(f"{path}: breadcrumb is too short")
+        if "FAQPage" not in types or "BreadcrumbList" not in types:
+            errors.append(f"{path} schema types {types}")
+        if "WebPage" not in types and "Service" not in types:
+            errors.append(f"{path} missing WebPage or Service schema")
+        if not saw_publisher:
+            errors.append(f"{path} missing publisher Organization BoFu, Baby")
+        if not saw_modified:
+            errors.append(f"{path} missing dateModified")
+        if not after_nav:
+            errors.append(f"{path} nav markup missing")
+    return errors
+
+
 def main() -> int:
     try:
         posts = load_posts()
         write_all(posts)
-        errors = check_output(posts) + check_video_slot()
+        errors = check_output(posts) + check_video_slot() + check_unlisted_pages()
     except (ValueError, OSError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
