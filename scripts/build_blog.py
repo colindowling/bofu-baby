@@ -109,6 +109,31 @@ NAV_LINKS = [
     ("/contact/", "Contact"),
 ]
 
+# Header only. Five top-level items. About, Resources, and Contact sit under Company.
+# The footer keeps the flat NAV_LINKS list. Do not add pages that are not in NAV_LINKS.
+NAV_MENU = [
+    ("link", "/services/", "Services"),
+    ("link", "/pricing/", "Pricing"),
+    ("link", "/bofu-map/", "BoFu Map"),
+    ("link", "/15minutes5xtraffic/", "15 minutes"),
+    (
+        "group",
+        "company",
+        "Company",
+        [
+            ("/about/", "About"),
+            ("/blog/", "Resources"),
+            ("/contact/", "Contact"),
+        ],
+    ),
+]
+
+CHEVRON = (
+    '<svg class="chev" viewBox="0 0 10 6" fill="none" aria-hidden="true">'
+    '<path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" '
+    'stroke-linecap="round" stroke-linejoin="round"/></svg>'
+)
+
 AUTHOR = {
     "@type": "Person",
     "name": "Colin Dowling",
@@ -446,14 +471,39 @@ def cta_block(post: Post, content: str, end: bool) -> str:
     )
 
 
+def _current_attr(href: str, current: str) -> str:
+    return ' aria-current="page"' if href == current else ""
+
+
 def nav_html(current: str) -> str:
     items = []
-    for href, label in NAV_LINKS:
-        current_attr = ' aria-current="page"' if href == current else ""
-        items.append(f'<li><a href="{href}"{current_attr}>{label}</a></li>')
+    for entry in NAV_MENU:
+        kind = entry[0]
+        if kind == "link":
+            _, href, label = entry
+            items.append(f'<li><a href="{href}"{_current_attr(href, current)}>{label}</a></li>')
+            continue
+        _, menu_id, label, children = entry
+        child_html = []
+        child_current = False
+        for href, child_label in children:
+            child_current = child_current or href == current
+            child_html.append(f'<li><a href="{href}"{_current_attr(href, current)}>{child_label}</a></li>')
+        current_attr = ' aria-current="page"' if child_current else ""
+        items.append(
+            '<li class="navdrop">'
+            f'<span class="navdrop-label">{label}</span>'
+            f'<button type="button" class="navdrop-trigger" aria-expanded="false" aria-haspopup="true" '
+            f'aria-controls="menu-{menu_id}"{current_attr}>{label}{CHEVRON}</button>'
+            f'<ul class="navdrop-menu" id="menu-{menu_id}">{"".join(child_html)}</ul>'
+            "</li>"
+        )
     return (
-        '<nav class="site"><a href="/" class="logo-img"><img src="/assets/logo.svg" alt="BoFu, Baby" height="60"></a>'
-        f"<ul class=\"menu\">{''.join(items)}</ul></nav>"
+        '<nav class="site" aria-label="Primary">'
+        '<a href="/" class="logo-img"><img src="/assets/logo.svg" alt="BoFu, Baby" height="60"></a>'
+        '<button type="button" class="navtoggle" aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">'
+        "<span></span><span></span><span></span></button>"
+        f'<ul class="menu" id="site-menu">{"".join(items)}</ul></nav>'
     )
 
 

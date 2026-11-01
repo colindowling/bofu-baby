@@ -1,0 +1,41 @@
+/* Primary navigation. Desktop: one row, at most five top-level items, hover dropdowns.
+   Small screens: logo and a hamburger; the same list opens as a panel. */
+nav.site{display:flex;justify-content:space-between;align-items:center;gap:16px 28px;flex-wrap:nowrap;position:relative;z-index:30;padding:30px 0}
+.navtoggle{display:none;margin-left:auto;width:44px;height:44px;flex:none;align-items:center;justify-content:center;flex-direction:column;gap:5px;padding:0;border:1px solid color-mix(in srgb,var(--ink) 35%,transparent);border-radius:2px;background:transparent;color:var(--ink);cursor:pointer}
+.navtoggle span{display:block;width:18px;height:1.5px;background:currentColor;transition:transform .22s ease,opacity .18s ease}
+.navtoggle[aria-expanded="true"] span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.navtoggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.navtoggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.navtoggle:hover{border-color:var(--acc);color:var(--acc)}
+.menu{display:flex;gap:22px;list-style:none;align-items:center;margin:0;padding:0;flex-wrap:nowrap;justify-content:flex-end}
+.menu > li > a,.navdrop-trigger{color:var(--ink);text-decoration:none;font-weight:500;font-size:16px;font-family:inherit;line-height:1.2;padding:8px 0;border:0;border-bottom:1.5px solid transparent;background:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.menu > li > a:hover,.menu > li > a[aria-current="page"],.navdrop-trigger:hover,.navdrop-trigger[aria-current="page"],.navdrop[data-open="true"] .navdrop-trigger{color:var(--acc);border-bottom-color:var(--acc)}
+.navtoggle:focus-visible,.menu a:focus-visible,.navdrop-trigger:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.navdrop{position:relative;display:flex;align-items:center}
+.navdrop-label{display:none}
+.chev{width:10px;height:6px;display:block;flex:none;transition:transform .2s ease}
+.navdrop[data-open="true"] .chev{transform:rotate(180deg)}
+.navdrop-menu{position:absolute;top:100%;right:0;left:auto;min-width:196px;z-index:80;margin:8px 0 0;padding:8px;list-style:none;background:#f6f1e8;color:#14233a;border-radius:2px;box-shadow:0 16px 40px rgba(10,18,32,.28);opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .18s ease,transform .18s ease,visibility .18s}
+.navdrop-menu::before{content:"";position:absolute;left:0;right:0;top:-12px;height:12px}
+.navdrop[data-open="true"] .navdrop-menu{opacity:1;visibility:visible;transform:translateY(0)}
+.navdrop-menu a{display:block;padding:10px 12px;border-radius:2px;border-bottom:0;color:#14233a;text-decoration:none;font-weight:500;font-size:16px;white-space:nowrap}
+.navdrop-menu a:hover,.navdrop-menu a:focus-visible,.navdrop-menu a[aria-current="page"]{color:#c4500a;background:rgba(196,80,10,.08)}
+@media(max-width:900px){
+nav.site{flex-wrap:wrap;padding:18px 0}
+html.js nav.site{flex-wrap:nowrap}
+.navtoggle{display:inline-flex}
+html:not(.js) .navtoggle{display:none}
+.menu{flex:1 0 100%;flex-direction:column;align-items:stretch;gap:0;justify-content:flex-start;padding:6px 0 12px}
+html.js .menu{display:none;position:absolute;top:100%;left:0;right:0;flex:none;width:auto;margin:0;padding:6px 0 16px;background:var(--bg2);border-top:1px solid var(--rule);box-shadow:0 18px 36px rgba(10,18,32,.35)}
+html.js nav.site.is-open .menu{display:flex}
+.menu > li > a{width:100%;font-size:18px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.navdrop{display:block}
+.navdrop-trigger{display:none}
+.navdrop-label{display:block;margin-top:14px;padding:10px 0 4px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);font-weight:600}
+.navdrop-menu{position:static;opacity:1;visibility:visible;transform:none;min-width:0;margin:0;padding:0;background:transparent;color:inherit;box-shadow:none}
+.navdrop-menu a{color:var(--ink);padding:13px 0 13px 14px;border-bottom:1px solid var(--rule);border-radius:0;font-size:17px;white-space:normal}
+.navdrop-menu a:hover,.navdrop-menu a:focus-visible,.navdrop-menu a[aria-current="page"]{background:transparent;color:var(--acc)}
+}
+@media(prefers-reduced-motion:reduce){
+.navtoggle span,.chev,.navdrop-menu{transition:none}
+}

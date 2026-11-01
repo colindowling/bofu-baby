@@ -128,15 +128,13 @@ section.lb{background:var(--lbg);--ink:#0f1a2e;--soft:#55657f;--body:#2b3a55;--a
 @media(max-width:560px){.tg{grid-template-columns:repeat(2,1fr);gap:10px}.tile{min-height:92px;font-size:19px;padding:16px}}
 .cta-go{margin-top:44px}.cta .pill{background:var(--ctabtn);color:var(--ctabtnfg);padding:18px 44px;font-size:18px}
 
-.menu{display:flex;gap:22px;list-style:none;align-items:center;margin:0;padding:0;flex-wrap:wrap;justify-content:flex-end}
-.menu a{color:var(--ink);text-decoration:none;font-weight:500;font-size:16px;padding:6px 0;border-bottom:1.5px solid transparent;transition:color .2s,border-color .2s}
-.menu a:hover,.menu a[aria-current=page]{color:var(--acc);border-color:var(--acc)}
-@media(max-width:700px){.menu{gap:12px 16px}.menu a{font-size:14px}}
 .ab2{max-width:680px;margin-top:40px;display:grid;gap:22px;font-size:20px;color:var(--body)}.ab2 p{margin:0}
-</style></head>
+</style><script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="/assets/nav.css">
+</head>
 <body>
 <div class="wrap">
-<nav><a href="/" class="logo-img"><img src="/assets/logo.svg" alt="BoFu, Baby" height="60"></a><ul class="menu"><li><a href="/services/">Services</a></li><li><a href="/pricing/">Pricing</a></li><li><a href="/bofu-map/">BoFu Map</a></li><li><a href="/15minutes5xtraffic/">15 minutes</a></li><li><a href="/about/" aria-current="page">About</a></li><li><a href="/blog/">Resources</a></li><li><a href="/contact/">Contact</a></li></ul></nav>
+<nav class="site" aria-label="Primary"><a href="/" class="logo-img"><img src="/assets/logo.svg" alt="BoFu, Baby" height="60"></a><button type="button" class="navtoggle" aria-expanded="false" aria-controls="site-menu" aria-label="Open menu"><span></span><span></span><span></span></button><ul class="menu" id="site-menu"><li><a href="/services/">Services</a></li><li><a href="/pricing/">Pricing</a></li><li><a href="/bofu-map/">BoFu Map</a></li><li><a href="/15minutes5xtraffic/">15 minutes</a></li><li class="navdrop"><span class="navdrop-label">Company</span><button type="button" class="navdrop-trigger" aria-expanded="false" aria-haspopup="true" aria-controls="menu-company" aria-current="page">Company<svg class="chev" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ul class="navdrop-menu" id="menu-company"><li><a href="/about/" aria-current="page">About</a></li><li><a href="/blog/">Resources</a></li><li><a href="/contact/">Contact</a></li></ul></li></ul></nav>
 </div>
 <section style="padding:72px 0 96px"><div class="wrap">
 <div class="eyebrow">About</div>
@@ -172,4 +170,5 @@ section.lb{background:var(--lbg);--ink:#0f1a2e;--soft:#55657f;--body:#2b3a55;--a
 </div></div></section>
 <section class="cta"><div class="wrap"><h2>Want leads who show up <em>ready to buy?</em></h2><p class="lead">Start with a free 15-minute call. We'll give you five high-intent searches your buyers are making right now, where you're missing from them, and whether the AIs are naming you or your competitor. Yours to keep either way.</p><div class="cta-go"><a class="pill" href="/15minutes5xtraffic/">Book the 15 minutes</a></div></div></section>
 <div class="wrap"><footer><span>&copy; BoFu, Baby</span><span class="flinks"><a href="/services/">Services</a><a href="/pricing/">Pricing</a><a href="/bofu-map/">BoFu Map</a><a href="/15minutes5xtraffic/">15 minutes</a><a href="/about/" aria-current="page">About</a><a href="/blog/">Resources</a><a href="/contact/">Contact</a></span><span>Qualified leads. Real customers. No vanity metrics.</span></footer></div>
+<script src="/assets/nav.js" defer></script>
 </body></html>
