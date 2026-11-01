@@ -883,12 +883,26 @@ def check_output(posts: list[Post]) -> list[str]:
         if price not in services:
             errors.append(f"services page missing visible price {price}")
     about = (ROOT / "about" / "index.html").read_text(encoding="utf-8")
-    for name in ("AboutPage", "Person"):
-        if not has_type(about, name):
-            errors.append(f"about page missing {name} schema")
-    for needed in ("Colin Dowling", "https://modernbusiness.life/", 'href="/15minutes5xtraffic/"'):
-        if needed not in about:
-            errors.append(f"about page missing {needed}")
+    if not has_type(about, "AboutPage"):
+        errors.append("about page missing AboutPage schema")
+    main_entity = None
+    for block in re.findall(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', about, re.S):
+        try:
+            data = json.loads(block)
+        except json.JSONDecodeError as exc:
+            errors.append(f"about page: JSON-LD does not parse ({exc})")
+            continue
+        if data.get("@type") == "AboutPage":
+            main_entity = data.get("mainEntity")
+    if (
+        not isinstance(main_entity, dict)
+        or main_entity.get("@type") != "Organization"
+        or main_entity.get("name") != "BoFu, Baby"
+        or main_entity.get("url") != f"{SITE}/"
+    ):
+        errors.append("about page AboutPage mainEntity is not the BoFu, Baby Organization")
+    if 'href="/15minutes5xtraffic/"' not in about:
+        errors.append('about page missing href="/15minutes5xtraffic/"')
     return errors
 
 
