@@ -953,6 +953,21 @@ def check_output(posts: list[Post]) -> list[str]:
         errors.append("about page AboutPage mainEntity is not the BoFu, Baby Organization")
     if 'href="/15minutes5xtraffic/"' not in about:
         errors.append('about page missing href="/15minutes5xtraffic/"')
+    track_pages = [
+        ROOT / "index.html",
+        ROOT / "about" / "index.html",
+        ROOT / "services" / "index.html",
+        ROOT / "pricing" / "index.html",
+        ROOT / "bofu-map" / "index.html",
+        ROOT / "contact" / "index.html",
+        ROOT / "15minutes5xtraffic" / "index.html",
+        BLOG_DIR / "index.html",
+    ]
+    track_pages.extend(sorted(BLOG_DIR.glob("*/index.html")))
+    for path in track_pages:
+        html_text = path.read_text(encoding="utf-8")
+        if "/assets/track.js" not in html_text:
+            errors.append(f"{path.relative_to(ROOT)}: missing /assets/track.js tag")
     return errors
 
 
