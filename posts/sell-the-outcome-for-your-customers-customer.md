@@ -23,7 +23,7 @@ faqs:
 
 Your buyer is not the end of the story. They have a customer of their own, and that person is often the reason the deal happens or dies. If your content never mentions that person, you are asking your champion to invent the most important sentence in the internal meeting.
 
-A dental tech executive I interviewed on the Modern Business Life podcast kept coming back to this. He was talking about a same-day crown. The practice preps the tooth, scans it, and sends it to the cloud. The design comes back in less than a minute. They print it in less than ten minutes. The patient gets a final crown in less than 45 minutes. Then he stepped past the workflow and named the person it is actually for. Think of the patient who has to take a day off work to come to the dentist. That inconvenience, he said, is sometimes enough for the patient to decide they'll wait. They can't do it.
+A dental tech executive interviewed on the Modern Business Life podcast kept coming back to this. He was talking about a same-day crown. The practice preps the tooth, scans it, and sends it to the cloud. The design comes back in less than a minute. They print it in less than ten minutes. The patient gets a final crown in less than 45 minutes. Then he stepped past the workflow and named the person it is actually for. Think of the patient who has to take a day off work to come to the dentist. That inconvenience, he said, is sometimes enough for the patient to decide they'll wait. They can't do it.
 
 The dentist is the buyer. The patient is the one who feels the day.
 
@@ -31,7 +31,7 @@ The dentist is the buyer. The patient is the one who feels the day.
 
 In a B2B deal, the person you sell to rarely gets to decide alone. They have to explain the purchase to someone who will never sit through your demo. A partner. A finance lead. Their own customer. If the only language on your site is features, integrations, and "platform," that person leaves the meeting with nothing to say.
 
-I see this when teams [can't name the problem they solve](/blog/name-the-problem-you-solve/) in the buyer's words. They can name the product. They cannot name the afternoon it gives back to someone downstream.
+We see this when teams [can't name the problem they solve](/blog/name-the-problem-you-solve/) in the buyer's words. They can name the product. They cannot name the afternoon it gives back to someone downstream.
 
 The fix is one concrete outcome, told from the far side of the buyer. What did their customer have to do before? What do they do after? What inconvenience was large enough that people quietly opted out?
 
@@ -79,6 +79,6 @@ The rewrite leads with the patient who used to take a day off and often did not 
 
 ## See which outcome searches you're missing
 
-The searches that close are often the ones phrased as the end customer's problem, not your feature list. The [15-minute traffic check](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_sell-the-outcome-for-your-customers-customer&utm_content=inbody) shows which of those you're missing, and whether answer engines describe you that way.
+The searches that close are often the ones phrased as the end customer's problem, not your feature list. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_sell-the-outcome-for-your-customers-customer&utm_content=inbody) shows which of those you're missing, and whether answer engines describe you that way.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_sell-the-outcome-for-your-customers-customer&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_sell-the-outcome-for-your-customers-customer&utm_content=post_end).

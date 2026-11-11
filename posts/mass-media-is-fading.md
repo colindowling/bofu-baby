@@ -23,9 +23,9 @@ faqs:
 
 Mass media is fading for B2B, and it isn't coming back. The places where a big audience once gathered in one spot keep losing it. The marketing that works now shows up where a specific buyer is actively looking, especially in search results and AI answers, right before they choose.
 
-A marketing leader I talked with recently said it plainly: the idea of mass media has already gone away. The big news organizations will keep losing viewers. Attention has scattered, and it isn't regrouping.
+A marketing leader we talked with recently said it plainly: the idea of mass media has already gone away. The big news organizations will keep losing viewers. Attention has scattered, and it isn't regrouping.
 
-It's been my experience that most marketing budgets haven't caught up with that.
+In our experience, most marketing budgets haven't caught up with that.
 
 ## What changed
 
@@ -41,7 +41,7 @@ On the one hand, broad reach still feels like progress. Big impression numbers l
 
 But reach without relevance is mostly waste. The person who sees your ad between two other things they didn't ask for is not shopping. The person typing "[your category] for [their industry]" into a search bar is.
 
-Where I land: put relevance first. Reach is something you add once the moments that decide deals are covered.
+Where we land: put relevance first. Reach is something you add once the moments that decide deals are covered.
 
 ## Where buyers actually go now
 
@@ -90,6 +90,6 @@ Write down the five questions your best customers asked right before they bought
 
 ## See where your buyers are searching
 
-Broad reach is shrinking, and the moments that decide deals are getting more specific. The [15-minute traffic check](/15minutes5xtraffic/) shows which of those searches you're missing and who's winning them today.
+Broad reach is shrinking, and the moments that decide deals are getting more specific. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those searches you're missing and who's winning them today.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

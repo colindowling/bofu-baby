@@ -21,9 +21,9 @@ faqs:
     a: "Rarely under your name. Models repeat distinctive, checkable sentences. A line every vendor uses gets attributed to the category, or to whoever has the most third-party mentions. If you want ChatGPT or Perplexity to name you, the page has to say something only you can say, in words a buyer would actually search."
 ---
 
-If I forwarded you the emails a careful buyer got this morning, you would not be able to tell the senders apart. That is the whole problem with the way most AI products are marketed right now.
+If we forwarded you the emails a careful buyer got this morning, you would not be able to tell the senders apart. That is the whole problem with the way most AI products are marketed right now.
 
-A healthcare imaging executive I interviewed on the Modern Business Life podcast described his inbox without any drama. He gets email every day, literally every day, from people he does not know. He does not know who they are. And it is always AI, AI, AI. Build my pipeline. Close deals faster. His conclusion was short. You need to come to the table with a solution.
+A healthcare imaging executive interviewed on the Modern Business Life podcast described his inbox without any drama. He gets email every day, literally every day, from people he does not know. He does not know who they are. And it is always AI, AI, AI. Build my pipeline. Close deals faster. His conclusion was short. You need to come to the table with a solution.
 
 He is not anti-AI. Later in the same conversation he described a job he would actually want it to do, if he were running a large sales organization again, the kind of company he named from his own career, such as GE, Philips, or Siemens. Dig into the funnel. Pull old leads back out. Deduplicate contacts. Clean the go-to-market data. Organize campaigns that are actually aimed. He was quicker to see that job in a big sales org with a messy history than in a small startup. He did not stop at "build pipeline."
 
@@ -31,7 +31,7 @@ He is not anti-AI. Later in the same conversation he described a job he would ac
 
 Read your homepage headline, your outbound opener, and the first line of your comparison page out loud, one after another. Then read them as if they arrived from a company the reader has never heard of.
 
-If a buyer could not tell which sentence is yours, you have the category sentence, not a position. I have written about this as [me-too positioning](/blog/me-too-positioning/): experts and buyers both pass over you when you sound like everyone else. AI gave that habit a shared script. Put a stranger's logo on the sentence you are proud of. If it still works, it is not yours.
+If a buyer could not tell which sentence is yours, you have the category sentence, not a position. We have written about this as [me-too positioning](/blog/me-too-positioning/): experts and buyers both pass over you when you sound like everyone else. AI gave that habit a shared script. Put a stranger's logo on the sentence you are proud of. If it still works, it is not yours.
 
 ## Come to the table with a solution
 
@@ -42,11 +42,11 @@ A solution is boring in the best way. It has a person, a pile of work, and a lim
 - **The before and after, in their words.** What Monday looks like now. What it looks like if the job is done. If you cannot say it without an adjective, you are not done.
 - **The limit.** Where this is the wrong tool. He already drew one: a big, messy commercial org is a better fit for that cleanup than a startup that barely has data yet. Putting the limit on the page is how a buyer trusts the rest.
 
-This is the same standard I use for [content buyers still trust when they assume AI wrote it](/blog/content-buyers-trust-ai-era/). Specific situations, a real constraint, a point of view. The generic line has none of those. Do not save the specific version for the demo. The buyer who is tired of the inbox will not book a call to find out whether you are different.
+This is the same standard we use for [content buyers still trust when they assume AI wrote it](/blog/content-buyers-trust-ai-era/). Specific situations, a real constraint, a point of view. The generic line has none of those. Do not save the specific version for the demo. The buyer who is tired of the inbox will not book a call to find out whether you are different.
 
 ## Make the decision pages impossible to confuse
 
-Bottom-of-funnel pages are where sameness becomes expensive. A buyer on your alternatives page is trying to separate you from two other tabs. If all three open with AI and faster pipeline, they will close the tabs and stay with whoever they already use.
+Bottom-of-funnel pages are where sameness becomes expensive. A buyer on your alternatives page is trying to separate you from two other tabs. If all three open with AI and faster pipeline, they will close the tabs and stay with whoever they already use. Here is [what a BoFu content agency for SaaS builds instead](/bofu-content-for-saas/).
 
 Rewrite those pages around the job:
 
@@ -57,7 +57,7 @@ Rewrite those pages around the job:
 
 [The BoFu Map](/bofu-map/) is how you find the searches that punish generic copy. The bottom-of-funnel list in a category is finite: alternatives, versus, pricing, best-for, switching. "AI to clean duplicate contacts in a CRM" is a search a person types. "AI that closes deals faster" is a billboard. Build the page for the search.
 
-Then ask the answer engines in the buyer's job language, not in your tagline. If the answer describes a category and never names you, the pages are still written in the category sentence. [When your descriptions say nothing distinctive, the model cannot describe you either](/blog/why-chatgpt-cant-describe-your-company/).
+Then ask the answer engines in the buyer's job language, not in your tagline. If the answer describes a category and never names you, the pages are still written in the category sentence. [When your descriptions say nothing distinctive, the model cannot describe you either](/blog/why-chatgpt-cant-describe-your-company/). The page-level fixes are in [getting cited by ChatGPT](/how-to-get-cited-by-chatgpt/).
 
 ## What to do this week
 
@@ -80,6 +80,6 @@ Company A is the email he gets every day. Company B came to the table with a sol
 
 ## See where the generic line is costing you
 
-The buyers who are ready to choose are searching for the job, and they are asking AI the same way. The [15-minute traffic check](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_generic-ai-pipeline-promises&utm_content=inbody) shows which of those searches you're missing, and whether the answers name you or the category.
+The buyers who are ready to choose are searching for the job, and they are asking AI the same way. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_generic-ai-pipeline-promises&utm_content=inbody) shows which of those searches you're missing, and whether the answers name you or the category.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_generic-ai-pipeline-promises&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_generic-ai-pipeline-promises&utm_content=post_end).

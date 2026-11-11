@@ -1,12 +1,12 @@
 ---
-title: "What you leave the free 15-minute call with"
+title: "What you leave the free 15-minute call with: your BoFu Autopsy"
 description: "On a free 15-minute call you get five high-intent searches, where you are missing from them, and whether the AIs are naming you or a competitor. You keep it either way."
 slug: what-the-free-15-minute-call-includes
 date: 2026-10-31
 topic: call
 cta: 15minutes
 takeaways:
-  - "The call is 15 minutes, and it is free."
+  - "The call is 15 minutes, it is free, and it gets you your BoFu Autopsy."
   - "You get five high-intent searches your buyers are making right now."
   - "You also get where you are missing from those searches, and whether the AIs are naming you or a competitor."
   - "You keep it either way. The BoFu Map is the separate, complete list."
@@ -23,7 +23,7 @@ faqs:
 
 ## What the call hands you
 
-The homepage offer is a free 15-minute call: five high-intent searches your buyers are making right now, where you're missing from them, and whether the AIs are naming you or your competitor. Yours to keep either way.
+The homepage offer is a free 15-minute call that gets you your BoFu Autopsy: five high-intent searches your buyers are making right now, where you're missing from them, and whether the AIs are naming you or your competitor. Yours to keep either way.
 
 ## How that differs from the Map
 

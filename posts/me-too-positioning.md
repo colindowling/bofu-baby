@@ -23,7 +23,7 @@ faqs:
 
 To differentiate in a crowded market, pick one specific thing you do differently for one specific kind of customer, say it plainly, and prove it. If a competitor could put your headline on their site unchanged, you don't have positioning yet. You have a category description.
 
-A consultant I spoke with recently, who works with the analysts and experts buyers rely on, said it directly. Those experts won't be very effective for you if you're a me-too player. If you struggle to differentiate, you'll have a hard time with them.
+A consultant we spoke with recently, who works with the analysts and experts buyers rely on, said it directly. Those experts won't be very effective for you if you're a me-too player. If you struggle to differentiate, you'll have a hard time with them.
 
 The same is true for buyers. And for the AI tools buyers now ask for recommendations.
 
@@ -98,6 +98,6 @@ Positioning is a choice. Make it on purpose.
 
 ## See where buyers compare you
 
-Comparison and alternatives searches are where differentiation shows up, or doesn't. The [15-minute traffic check](/15minutes5xtraffic/) shows which of those searches you're missing today.
+Comparison and alternatives searches are where differentiation shows up, or doesn't. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those searches you're missing today.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

@@ -18,14 +18,14 @@ faqs:
   - q: "Which platforms are in the 200 checks?"
     a: "ChatGPT, Perplexity, Google AI Overviews and Claude."
   - q: "Where can I see whether we are being named?"
-    a: "The free 15-minute call includes whether the AIs are naming you or a competitor. The BoFu Map includes a citation baseline: ten buyer-intent questions across the same four platforms."
+    a: "The free 15-minute call gets you your BoFu Autopsy, which includes whether the AIs are naming you or a competitor. The BoFu Map includes a citation baseline: ten buyer-intent questions across the same four platforms."
 ---
 
 ## Named, or not, with no session to show for it
 
 When someone types "best [your category] for [their situation]" into ChatGPT or Perplexity, they get three or four vendor names and a recommendation. No click. No session. Nothing in analytics.
 
-You either got named or you didn't. Ranking and getting cited are two different jobs.
+You either got named or you didn't. Ranking and getting cited are two different jobs. The steps for the second job are in [how to get cited by ChatGPT](/how-to-get-cited-by-chatgpt/).
 
 ## What the 200 checks are
 
@@ -37,6 +37,6 @@ The questions are agreed up front and do not change. The number reported is a ci
 
 The pages get written so a model can lift a clean answer out of them. AI answers mostly synthesize third-party sources, so the work also covers the roundups already ranking for your terms, the review-site categories, and the threads where buyers ask.
 
-Google position and AI citation rate are reported separately. They move independently.
+Google position and AI citation rate are reported separately. They move independently. It is also why an [AEO specialist and an SEO agency](/aeo-specialist-vs-seo-agency/) end up measuring different things.
 
-A first look at whether you are being named is part of the [free 15-minute call](/15minutes5xtraffic/). The full baseline, ten questions across the four platforms, is part of [the BoFu Map](/bofu-map/).
+A first look at whether you are being named is part of the [free 15-minute BoFu Autopsy](/15minutes5xtraffic/). The full baseline, ten questions across the four platforms, is part of [the BoFu Map](/bofu-map/).

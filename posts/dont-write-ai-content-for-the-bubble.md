@@ -23,7 +23,7 @@ faqs:
 
 Most of the market has not tried what you tried last Tuesday. If your bottom-of-funnel pages are written as if they have, you are talking to a corner of the market and calling it the buyer.
 
-An operator I interviewed put the scale of that corner in plain terms. People who have tried it in a chat window, then tried it inside an IDE, and then carry something like a Claude Code subscription are in a vanishingly small corner. It is easy to forget that, because you live in bubbles, and even more so in a place like Austin or Silicon Valley. Not everyone is deep into this.
+An operator we interviewed put the scale of that corner in plain terms. People who have tried it in a chat window, then tried it inside an IDE, and then carry something like a Claude Code subscription are in a vanishingly small corner. It is easy to forget that, because you live in bubbles, and even more so in a place like Austin or Silicon Valley. Not everyone is deep into this.
 
 That is a market fact. It is also a content fact. The page that wins a buying search, and the page an answer engine will repeat, is the one that meets the reader who is not in the bubble.
 
@@ -78,6 +78,6 @@ Then ask one customer who is not in your city and not in your group chat to read
 
 ## See which buyer searches you're writing past
 
-The searches that close are the ones typed by people who are not in the bubble. The [15-minute traffic check](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_dont-write-ai-content-for-the-bubble&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
+The searches that close are the ones typed by people who are not in the bubble. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_dont-write-ai-content-for-the-bubble&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_dont-write-ai-content-for-the-bubble&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_dont-write-ai-content-for-the-bubble&utm_content=post_end).

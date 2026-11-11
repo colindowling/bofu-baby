@@ -23,7 +23,7 @@ faqs:
 
 You define the problem you solve by asking customers what was happening right before they started looking, and writing it down in their words. If your team can't name that problem clearly, your content will be vague, buyers won't recognize themselves in it, and it won't rank for the searches they actually make.
 
-An operator I talked with recently, someone who has worked inside many growing companies, said it directly: a lot of times the companies, the marketers and the salespeople aren't really clear about the problem they're solving.
+An operator we talked with recently, someone who has worked inside many growing companies, said it directly: a lot of times the companies, the marketers and the salespeople aren't really clear about the problem they're solving.
 
 That's a bigger deal than it sounds. Everything in marketing hangs off that one answer.
 
@@ -103,6 +103,6 @@ Ask five customers the three questions above. Write one sentence from their answ
 
 ## See which problem searches you're missing
 
-The fastest way to see whether your content names the right problems is to check which buyer searches you show up for today. The [15-minute traffic check](/15minutes5xtraffic/) shows you.
+The fastest way to see whether your content names the right problems is to check which buyer searches you show up for today. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

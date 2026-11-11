@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Build blog/<slug>/index.html from posts/*.md and refresh the index, hubs, and sitemap.
 
-App Platform serves the committed HTML. Run this script before committing a post.
-It does not run on deploy. See posts/README.md.
+App Platform does not run this script. Run it before committing. It writes the
+HTML at the repo root, then copies the public site into _static/. That directory
+is what App Platform publishes when Output Directory is unset. See posts/README.md.
 """
 
 from __future__ import annotations
@@ -40,9 +41,9 @@ TOPICS = {
         "offer": "/pricing/",
     },
     "call": {
-        "label": "The 15-minute call",
+        "label": "The 15-minute Autopsy",
         "hub_href": "/15minutes5xtraffic/",
-        "hub_name": "the free 15-minute call",
+        "hub_name": "the free 15-minute Autopsy",
         "offer": "/15minutes5xtraffic/",
     },
     "citation": {
@@ -68,11 +69,11 @@ CTAS = {
         "path": "/15minutes5xtraffic/",
         "heading": "Want leads who show up <em>ready to buy?</em>",
         "body": (
-            "Start with a free 15-minute call. We'll give you five high-intent searches "
+            "Start with a free 15-minute call. It gets you your BoFu Autopsy: five high-intent searches "
             "your buyers are making right now, where you're missing from them, and whether "
             "the AIs are naming you or your competitor. Yours to keep either way."
         ),
-        "button": "Book the 15 minutes",
+        "button": "Book the 15-minute Autopsy",
     },
     "bofu-map": {
         "path": "/bofu-map/",
@@ -114,7 +115,7 @@ NAV_LINKS = [
     ("/services/", "Services"),
     ("/pricing/", "Pricing"),
     ("/bofu-map/", "BoFu Map"),
-    ("/15minutes5xtraffic/", "15 minutes"),
+    ("/15minutes5xtraffic/", "15-min Autopsy"),
     ("/about/", "About"),
     ("/blog/", "Resources"),
     ("/contact/", "Contact"),
@@ -126,7 +127,7 @@ NAV_MENU = [
     ("link", "/services/", "Services"),
     ("link", "/pricing/", "Pricing"),
     ("link", "/bofu-map/", "BoFu Map"),
-    ("link", "/15minutes5xtraffic/", "15 minutes"),
+    ("link", "/15minutes5xtraffic/", "15-min Autopsy"),
     (
         "group",
         "company",
@@ -146,9 +147,9 @@ CHEVRON = (
 )
 
 AUTHOR = {
-    "@type": "Person",
-    "name": "Colin Dowling",
-    "url": f"{SITE}/about/",
+    "@type": "Organization",
+    "name": "BoFu, Baby",
+    "url": f"{SITE}/",
 }
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
@@ -749,7 +750,7 @@ def hub_block(topic: str, posts: list[Post]) -> str:
     headings = {
         "map": "Notes on <em>the keyword set.</em>",
         "build": "Notes on <em>the build.</em>",
-        "call": "Notes on <em>the 15-minute call.</em>",
+        "call": "Notes on <em>the 15-minute Autopsy.</em>",
     }
     return (
         f'<section id="{topic}-notes" style="padding:72px 0"><div class="wrap">\n'
@@ -895,10 +896,10 @@ def check_output(posts: list[Post]) -> list[str]:
             errors.append(f"{post.slug}: VideoObject without a video")
         if "Key takeaways" not in page:
             errors.append(f"{post.slug}: missing takeaways")
-        if 'href="/about/"' not in page or "Colin Dowling" not in page:
-            errors.append(f"{post.slug}: missing byline linking to /about/")
-        if '"name": "Colin Dowling"' not in page:
-            errors.append(f"{post.slug}: BlogPosting author is not Colin Dowling")
+        if 'By <a href="/about/">BoFu, Baby</a>' not in page:
+            errors.append(f"{post.slug}: missing company byline linking to /about/")
+        if re.search(r"colin|dowling", page, re.I):
+            errors.append(f"{post.slug}: contains a personal name (company voice only)")
         if 'utm_content=inbody' not in page or 'utm_content=post_end' not in page:
             errors.append(f"{post.slug}: missing CTA utm_content")
         if f"utm_campaign=blog_{post.slug}" not in page:
@@ -1151,11 +1152,91 @@ def check_unlisted_pages() -> list[str]:
     return errors
 
 
+PUBLISH_DIR = ROOT / "_static"
+# Source directories the static host must not upload. Output Directory is unset
+# on this app, so App Platform publishes the first of _static, dist, public, build.
+PUBLISH_SKIP = {"posts", "scripts", "docs", "_static"}
+PUBLIC_TEXT = {".html", ".txt", ".xml", ".css", ".js", ".svg", ".md"}
+
+
+def public_pages() -> list[Path]:
+    pages = [ROOT / "index.html", ROOT / "llms.txt", ROOT / "sitemap.xml", ROOT / "robots.txt"]
+    pages.extend(sorted(ROOT.glob("*/index.html")))
+    pages.extend(sorted(BLOG_DIR.glob("*/index.html")))
+    return [path for path in pages if path.is_file()]
+
+
+def check_public_pages() -> list[str]:
+    """Company voice and no GSC stub on every page that can be copied into _static."""
+    errors: list[str] = []
+    for path in public_pages():
+        text = path.read_text(encoding="utf-8")
+        rel = path.relative_to(ROOT)
+        if re.search(r"colin|dowling", text, re.I):
+            errors.append(f"{rel}: contains a personal name (company voice only)")
+        if "REPLACE_WITH_GSC_TOKEN" in text or "GSC:" in text:
+            errors.append(f"{rel}: still has the GSC verification stub")
+    offer = ROOT / "15minutes5xtraffic" / "index.html"
+    if offer.is_file() and re.search(r"money[- ]back", offer.read_text(encoding="utf-8"), re.I):
+        errors.append("15minutes5xtraffic: still states a money-back guarantee")
+    return errors
+
+
+def publish_site() -> int:
+    """Copy the public site into _static/, excluding source directories."""
+    if PUBLISH_DIR.exists():
+        shutil.rmtree(PUBLISH_DIR)
+    PUBLISH_DIR.mkdir()
+    copied = 0
+    for entry in sorted(ROOT.iterdir(), key=lambda path: path.name):
+        if entry.name in PUBLISH_SKIP or entry.name.startswith("."):
+            continue
+        dest = PUBLISH_DIR / entry.name
+        if entry.is_dir():
+            shutil.copytree(entry, dest)
+        else:
+            shutil.copy2(entry, dest)
+        copied += 1
+    return copied
+
+
+def check_published() -> list[str]:
+    errors: list[str] = []
+    for name in ("posts", "scripts", "docs"):
+        if (PUBLISH_DIR / name).exists():
+            errors.append(f"_static contains /{name}/")
+    if not (PUBLISH_DIR / "blog" / "index.html").is_file():
+        errors.append("_static is missing /blog/")
+    for path in PUBLISH_DIR.rglob("*"):
+        if not path.is_file() or path.suffix.lower() not in PUBLIC_TEXT:
+            continue
+        text = path.read_text(encoding="utf-8")
+        rel = path.relative_to(PUBLISH_DIR)
+        if re.search(r"colin|dowling", text, re.I):
+            errors.append(f"_static/{rel}: contains a personal name")
+        if "REPLACE_WITH_GSC_TOKEN" in text or "GSC:" in text:
+            errors.append(f"_static/{rel}: still has the GSC verification stub")
+    sitemap = (PUBLISH_DIR / "sitemap.xml").read_text(encoding="utf-8")
+    for loc in re.findall(r"<loc>(.*?)</loc>", sitemap):
+        if not loc.startswith(SITE):
+            errors.append(f"sitemap loc is not on {SITE}: {loc}")
+            continue
+        rel = loc[len(SITE):].lstrip("/")
+        target = PUBLISH_DIR / "index.html" if rel == "" else PUBLISH_DIR / rel / "index.html"
+        if not target.is_file():
+            errors.append(f"sitemap URL missing from _static: {loc}")
+    return errors
+
+
 def main() -> int:
     try:
         posts = load_posts()
         write_all(posts)
-        errors = check_output(posts) + check_video_slot() + check_unlisted_pages()
+        errors = check_output(posts) + check_video_slot() + check_unlisted_pages() + check_public_pages()
+        copied = 0
+        if not errors:
+            copied = publish_site()
+            errors.extend(check_published())
     except (ValueError, OSError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
@@ -1165,6 +1246,7 @@ def main() -> int:
             print(f"  {error}", file=sys.stderr)
         return 1
     print(f"built {len(posts)} post(s): {', '.join(post.slug for post in posts) or '(none)'}")
+    print(f"published _static/ from {copied} root entries; posts/, scripts/, and docs/ excluded")
     return 0
 
 

@@ -23,7 +23,7 @@ faqs:
 
 To brand on evidence instead of gut feel, treat your instinct as a hypothesis, then check it quickly: interview recent customers and lost prospects, mine sales calls for buyer language, look at what buyers search, and test the message on the pages where they decide. It doesn't take a big budget, just real buyer input.
 
-A marketing leader I talked with recently put it in one line I liked: too many companies do what they think is right rather than finding out what's right.
+A marketing leader we talked with recently put it in one line we liked: too many companies do what they think is right rather than finding out what's right.
 
 That's especially true of branding and messaging, because everyone has an opinion and the opinions feel like knowledge.
 
@@ -35,7 +35,7 @@ The trouble is that what a company believes about itself is often not what buyer
 
 ## Gut feel is a starting point
 
-I'm not against instinct. Experienced people have good instincts. But an instinct is a hypothesis, not a decision. The question is how quickly you can check it.
+We're not against instinct. Experienced people have good instincts. But an instinct is a hypothesis, not a decision. The question is how quickly you can check it.
 
 ## Cheap ways to find out what's right
 
@@ -99,6 +99,6 @@ Say leadership believes the brand should lead with "innovation." Then customer i
 
 ## Start with what buyers search
 
-One of the fastest ways to see how buyers really describe their needs is to look at the searches they make right before they choose. The [15-minute traffic check](/15minutes5xtraffic/) shows which of those you're missing.
+One of the fastest ways to see how buyers really describe their needs is to look at the searches they make right before they choose. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

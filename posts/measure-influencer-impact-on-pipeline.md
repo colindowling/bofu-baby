@@ -23,7 +23,7 @@ faqs:
 
 To measure which deals an analyst, influencer or partner touched, ask every new lead how they heard about you in their own words, have sales tag deals where those names come up, and compare how those deals perform. It won't be perfect attribution, but it's honest evidence that holds up in a budget meeting.
 
-A consultant I talked with recently, who has spent years helping companies work with the experts buyers trust, said the first step in proving impact on pipeline is measurement. You need some way to see where incoming leads are coming from.
+A consultant we talked with recently, who has spent years helping companies work with the experts buyers trust, said the first step in proving impact on pipeline is measurement. You need some way to see where incoming leads are coming from.
 
 It sounds obvious. Almost nobody does it well.
 
@@ -92,6 +92,6 @@ Say your demo form starts asking "How did you hear about us?" After a quarter, a
 
 ## See what buyers find when they look
 
-When a buyer hears your name and goes searching, what do they find for the questions they're asking? The [15-minute traffic check](/15minutes5xtraffic/) shows you which buyer searches you're missing.
+When a buyer hears your name and goes searching, what do they find for the questions they're asking? The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows you which buyer searches you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

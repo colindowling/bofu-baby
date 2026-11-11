@@ -23,7 +23,7 @@ faqs:
 
 To make content buyers still trust when everyone assumes AI wrote it, put in what a model can't know: real experience, specific examples, honest trade-offs and a point of view. Use AI for speed, keep the judgment human, and aim fewer, sharper pieces at buyers who are close to a decision.
 
-I heard this from two directions recently. One operator said content-led outreach is losing its power, because people now assume AI must have done the work for you. A marketing leader put the other half of it well: it's easier than ever to produce content, and harder than ever to do it well.
+We heard this from two directions recently. One operator said content-led outreach is losing its power, because people now assume AI must have done the work for you. A marketing leader put the other half of it well: it's easier than ever to produce content, and harder than ever to do it well.
 
 Both are true at once. That's the tension.
 
@@ -49,9 +49,9 @@ None of those can be generated from what's already online. That's the point.
 
 ## Use AI for the right parts
 
-I'm not against using AI for content. It's useful for research, outlines, first drafts, editing and turning one piece into five. Refusing to use it just makes you slower.
+We're not against using AI for content. It's useful for research, outlines, first drafts, editing and turning one piece into five. Refusing to use it just makes you slower.
 
-The line I'd draw is this: AI can help with the writing. It can't supply the experience. So keep humans responsible for:
+The line we'd draw is this: AI can help with the writing. It can't supply the experience. So keep humans responsible for:
 
 - The idea and the angle.
 - The examples and the numbers.
@@ -92,6 +92,6 @@ Publishing less feels risky. It isn't, if each page answers a real buying questi
 
 ## See where trusted content would pay off
 
-The best place to start is the bottom-of-funnel searches in your market, where buyers are deciding and generic content is easy to beat. The [15-minute traffic check](/15minutes5xtraffic/) shows which ones you're missing.
+The best place to start is the bottom-of-funnel searches in your market, where buyers are deciding and generic content is easy to beat. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which ones you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, written in your voice and built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, written in your voice and built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
