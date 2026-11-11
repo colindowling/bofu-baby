@@ -23,7 +23,7 @@ faqs:
 
 A buyer close to a decision needs a reason to bet their reputation on you. When the long study does not exist yet, that reason is proxy proof: the tests, the simulations, the early users, and the people those buyers already listen to.
 
-I heard the buyer's question in one line from a dental tech executive I interviewed on the Modern Business Life podcast. His buyers are dentists. How do you get a dentist to say it's good enough?
+We heard the buyer's question in one line from a dental tech executive interviewed on the Modern Business Life podcast. His buyers are dentists. How do you get a dentist to say it's good enough?
 
 He did not pretend the long study was sitting in a drawer. The trade-off, as he put it, is that you don't have five years of research. You have bench testing. You have a simulated study. You have the weight of big data on the properties of the material. After that, the job changes. It becomes getting the right voices. The dentists with the strong voices who can look at that evidence and say, I get it.
 
@@ -77,6 +77,6 @@ The rewrite says there is no five-year clinical study yet. Here is the bench tes
 
 ## See which proof questions you're missing
 
-Buyers search for the evidence, the comparison, and the "is this good enough" question before they book a call. The [15-minute traffic check](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_no-long-term-study-proxy-proof&utm_content=inbody) shows which of those searches you're missing, and whether the AIs are naming you when they ask.
+Buyers search for the evidence, the comparison, and the "is this good enough" question before they book a call. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_no-long-term-study-proxy-proof&utm_content=inbody) shows which of those searches you're missing, and whether the AIs are naming you when they ask.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_no-long-term-study-proxy-proof&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_no-long-term-study-proxy-proof&utm_content=post_end).

@@ -23,7 +23,7 @@ faqs:
 
 B2B personas work when they're built around why each buyer says yes, not where they hang out. For each role, capture the goal, the fear, the main question they ask and the proof they need, then make sure there's a page answering that question when they're deciding.
 
-A go-to-market consultant I talked with recently put it this way. If you don't understand the differences in your buyers and their preferences, it's very hard to market to them. And when you look at personas, it's a lot less about what channels they consume information on and more about the information you put in front of them.
+A go-to-market consultant we talked with recently put it this way. If you don't understand the differences in your buyers and their preferences, it's very hard to market to them. And when you look at personas, it's a lot less about what channels they consume information on and more about the information you put in front of them.
 
 Most persona documents get this backwards.
 
@@ -103,6 +103,6 @@ Here's a channel persona: "IT Director, 40s, reads industry blogs, active on Lin
 
 ## Find the questions you're not answering
 
-Each persona's main question usually shows up as a search: comparisons, pricing, alternatives, fit. The [15-minute traffic check](/15minutes5xtraffic/) shows which of those you're missing.
+Each persona's main question usually shows up as a search: comparisons, pricing, alternatives, fit. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

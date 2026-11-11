@@ -23,7 +23,7 @@ faqs:
 
 You can have a product a cautious buyer needs and still get nowhere, if the first conversation you ask for is the purchase. In markets where nobody wants to be early, you have to be known before you are sold.
 
-A healthcare imaging executive I interviewed on the Modern Business Life podcast said it without dressing it up. You have to get an audience. You cannot walk into the purchasing department and announce that you have something they should buy. He has watched that path go nowhere. You have to work the research side of the business, so people understand what you do in written white papers.
+A healthcare imaging executive interviewed on the Modern Business Life podcast said it without dressing it up. You have to get an audience. You cannot walk into the purchasing department and announce that you have something they should buy. He has watched that path go nowhere. You have to work the research side of the business, so people understand what you do in written white papers.
 
 He was talking about hospitals and imaging, where buyers do not like risk and a familiar name feels safer. In that world, a name like Epic carries weight because a lot of people are already in the pool. A company without that kind of recognition does not fix it with a sharper feature list at the purchasing desk. It earns a hearing first, among the people who read, write, and teach.
 
@@ -33,7 +33,7 @@ The same pattern shows up anywhere a bad choice is a career risk, not just a bud
 
 An audience, in his sense, is not a follower count. It is a group of practitioners who could explain what you do to a colleague without you in the room. If they cannot, you do not have an audience yet. You have a list.
 
-That is a distribution problem, and it is slower than a campaign. I have made the same point about [building distribution before you launch](/blog/build-distribution-before-launch/). Attention you did not earn in advance has to be rented, and rented attention does not survive a cautious buying group.
+That is a distribution problem, and it is slower than a campaign. We have made the same point about [building distribution before you launch](/blog/build-distribution-before-launch/). Attention you did not earn in advance has to be rented, and rented attention does not survive a cautious buying group.
 
 The research community still gives attention when you show the work: studies, methods, white papers, a talk that teaches the problem before it mentions the product. If the paper reads like a demo script, that audience will treat it like one. A deal that started in a paper or a talk will not show up as a click, either. [Measuring which deals those voices actually touched](/blog/measure-influencer-impact-on-pipeline/) is how you keep funding the slow work when someone asks why you are not just emailing purchasing.
 
@@ -41,7 +41,7 @@ The research community still gives attention when you show the work: studies, me
 
 A white paper earns its place when a reader who has never met you can say, afterward, what you do and what you are not claiming. That is a higher bar than "it looks serious."
 
-A few tests I use:
+A few tests we use:
 
 - **The first page names the problem in the reader's language.** Not your category. The situation they already have.
 - **The method is visible.** What was examined, over what kind of work, with what limit. A paper that skips the method is a brochure.
@@ -79,6 +79,6 @@ The other motion starts earlier, on the research side. A written paper on a spec
 
 ## See whether that audience can find you
 
-Once someone in the research community wants to know who to consider, they search and they ask an AI. The [15-minute traffic check](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-an-audience-before-you-pitch&utm_content=inbody) shows which of those buyer questions you're missing from.
+Once someone in the research community wants to know who to consider, they search and they ask an AI. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-an-audience-before-you-pitch&utm_content=inbody) shows which of those buyer questions you're missing from.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-an-audience-before-you-pitch&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-an-audience-before-you-pitch&utm_content=post_end).

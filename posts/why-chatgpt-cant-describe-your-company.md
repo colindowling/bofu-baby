@@ -23,7 +23,7 @@ faqs:
 
 ChatGPT and other AI tools describe your company wrong when the sources they learn from disagree: your site says one thing, your LinkedIn page another, an old directory listing a third. Pick one clear description of who you help and what you solve, use it everywhere, and publish pages that answer buyer questions directly.
 
-A go-to-market consultant I talked with recently explained the chain reaction well. When messaging isn't consistent across a brand, the LLM gets confused and doesn't know who you are. Then you lose track of yourself in these answer engines.
+A go-to-market consultant we talked with recently explained the chain reaction well. When messaging isn't consistent across a brand, the LLM gets confused and doesn't know who you are. Then you lose track of yourself in these answer engines.
 
 That's a new problem, and it's growing fast.
 
@@ -67,11 +67,11 @@ This is boring work. It's also one of the cheapest ways to show up better in AI 
 
 Consistency tells AI tools who you are. Specific pages tell them when to recommend you. Buyers ask questions like "best X for Y," "X vs. Y" and "alternatives to X." If you have clear, honest pages answering those questions, AI tools have something to pull from.
 
-Write those pages to answer the question in the first sentence or two, then go deeper. That's useful for human readers too.
+Write those pages to answer the question in the first sentence or two, then go deeper. That's useful for human readers too. The full playbook is in [how to get your B2B company cited by ChatGPT](/how-to-get-cited-by-chatgpt/).
 
 ## Check it yourself
 
-Once a month, ask the major AI tools the questions your buyers ask. Note whether you're mentioned and how you're described. When something's wrong, trace it back to the source and fix it.
+Once a month, ask the major AI tools the questions your buyers ask. Note whether you're mentioned and how you're described. When something's wrong, trace it back to the source and fix it. That monthly check is what an AEO-only shop sells; here is [how an AEO specialist differs from an SEO agency](/aeo-specialist-vs-seo-agency/).
 
 ## Signs AI tools are confused about you
 
@@ -96,6 +96,6 @@ Say your homepage calls you "a revenue intelligence platform," LinkedIn says "sa
 
 ## See where you're missing
 
-The searches and questions buyers ask right before they choose are where consistent messaging pays off. The [15-minute traffic check](/15minutes5xtraffic/) shows which ones you're missing.
+The searches and questions buyers ask right before they choose are where consistent messaging pays off. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which ones you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

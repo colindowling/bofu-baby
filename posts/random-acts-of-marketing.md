@@ -23,7 +23,7 @@ faqs:
 
 If your marketing isn't generating pipeline, the usual reason is that the activity isn't connected to anything: no clear buyer, no clear problem, and nothing answering buyers at the moment they're ready to choose. Fix the foundation and the bottom of the funnel before you add more activity.
 
-Two people I talked with recently described the same thing from different angles. One said what he normally sees is activity that's disconnected. Let's go to this conference, let's sponsor this, let's push out some LinkedIn ads. The other said she keeps stepping into teams doing random acts of marketing, with no direction and no strategy.
+Two people we talked with recently described the same thing from different angles. One said what he normally sees is activity that's disconnected. Let's go to this conference, let's sponsor this, let's push out some LinkedIn ads. The other said she keeps stepping into teams doing random acts of marketing, with no direction and no strategy.
 
 Neither of them was blaming the teams. Busy marketing teams usually mean well. They just don't have a foundation to work from.
 
@@ -100,6 +100,6 @@ List every marketing activity planned for the next 90 days. Next to each, write 
 
 ## Not sure what your buyers are searching for?
 
-Start by finding the bottom-of-funnel searches in your market and checking whether you show up for them. That's exactly what the [15-minute traffic check](/15minutes5xtraffic/) shows you.
+Start by finding the bottom-of-funnel searches in your market and checking whether you show up for them. That's exactly what the [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

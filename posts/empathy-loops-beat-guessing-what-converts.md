@@ -23,7 +23,7 @@ faqs:
 
 You will not guess your way to a page that converts. The teams that get this right keep a loop running: talk to users, use the product, go see the work, and rewrite the page. The guess is what you publish when that loop has stopped.
 
-A sports-tech product leader I interviewed described the habit in practical terms. The team kept conducting user interviews, using the product firsthand, going on customer visits, and attending conferences. Whatever it took to put themselves in the shoes of their users as they scaled, so they still had a feel for which problems to solve. Those problems change. The loop is how you notice.
+A sports-tech product leader we interviewed described the habit in practical terms. The team kept conducting user interviews, using the product firsthand, going on customer visits, and attending conferences. Whatever it took to put themselves in the shoes of their users as they scaled, so they still had a feel for which problems to solve. Those problems change. The loop is how you notice.
 
 Their product serves coaches. The same habit matters when the person in those shoes is a champion trying to get a purchase approved. If nobody has sat in that chair lately, you are guessing what the comparison page should say, and the page will rank for a vague term, get cited for nothing, and convert by accident.
 
@@ -88,6 +88,6 @@ Book two conversations this week. Ask what they searched, what almost stopped th
 
 ## See which pages are still a guess
 
-The damage shows up where buying searches meet a thin or missing page. The [15-minute traffic check](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_empathy-loops-beat-guessing-what-converts&utm_content=inbody) shows five of those searches, and whether answer engines are naming you.
+The damage shows up where buying searches meet a thin or missing page. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_empathy-loops-beat-guessing-what-converts&utm_content=inbody) shows five of those searches, and whether answer engines are naming you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_empathy-loops-beat-guessing-what-converts&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_empathy-loops-beat-guessing-what-converts&utm_content=post_end).

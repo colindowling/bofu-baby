@@ -23,7 +23,7 @@ faqs:
 
 To market a product buyers don't know they need, stop leading with your category name and meet them in the searches they already make: their problem, and ways to fix the homegrown tool they built. Then show them, plainly, how a purpose-built product compares.
 
-A go-to-market leader I spoke with recently said one of the hardest parts of his job is getting into the right rooms, because some people don't even realize a product like his exists. They think they just need to keep hacking on their homegrown thing.
+A go-to-market leader we spoke with recently said one of the hardest parts of his job is getting into the right rooms, because some people don't even realize a product like his exists. They think they just need to keep hacking on their homegrown thing.
 
 That's a different problem from losing to a competitor. Nobody is comparing you to anyone. They don't know there's a comparison to make.
 
@@ -61,7 +61,7 @@ A page titled something like "When a homegrown [thing] stops scaling" can reach 
 
 ## Make the build-versus-buy comparison easy to find
 
-At some point, a buyer with a homegrown fix will ask, should we keep building this or buy something? Give them a page that answers it truthfully.
+At some point, a buyer with a homegrown fix will ask, should we keep building this or buy something? Give them a page that answers it truthfully. For SaaS teams, that page sits with the rest of your [SaaS bottom-of-funnel content](/bofu-content-for-saas/).
 
 Show both sides. What building really costs, in people, time and upkeep. What buying costs. When building is actually the right answer. That last part matters. A comparison that admits when you're not the right fit is one people trust, and one they'll forward to their boss.
 
@@ -91,6 +91,6 @@ Say your product replaces the spreadsheets and scripts operations teams use to t
 
 ## Find the searches you're missing
 
-The first step is knowing which problem and workaround searches your buyers make, and whether you show up for any of them. The [15-minute traffic check](/15minutes5xtraffic/) shows you.
+The first step is knowing which problem and workaround searches your buyers make, and whether you show up for any of them. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

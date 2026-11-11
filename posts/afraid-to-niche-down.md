@@ -23,9 +23,9 @@ faqs:
 
 If you're afraid to niche down, you're not alone, and the fear makes sense. It feels like you're cutting your market in half. In practice, the narrower you go, the easier marketing gets, because the right buyers can finally tell you're talking to them.
 
-A marketing leader I talked with recently put it simply. Some marketers are afraid to niche down because they believe it will narrow their prospects. But the narrower you go, the easier it becomes, because that customer can more easily identify with you.
+A marketing leader we talked with recently put it simply. Some marketers are afraid to niche down because they believe it will narrow their prospects. But the narrower you go, the easier it becomes, because that customer can more easily identify with you.
 
-I've watched this play out more times than I'd like to admit, including in my own businesses.
+We've watched this play out more times than we'd like to admit, including in our own work.
 
 ## Why niching down feels so risky
 
@@ -88,6 +88,6 @@ Pull your last ten closed-won deals. Write down what they had in common. Then se
 
 ## Find the searches your niche is already making
 
-The fastest way to see whether a niche is worth owning is to look at what those buyers search for and who shows up today. That's exactly what the [15-minute traffic check](/15minutes5xtraffic/) shows you.
+The fastest way to see whether a niche is worth owning is to look at what those buyers search for and who shows up today. That's exactly what the [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

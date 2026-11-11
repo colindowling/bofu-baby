@@ -23,7 +23,7 @@ faqs:
 
 Trying to be the next McKinsey is a positioning trap. The buyer in front of you is not hiring a global brand. They have a local job, a local constraint, and a desk the work has to sit on.
 
-An operator I interviewed was clear about where the work actually is. A lot of it is going to be local. You have to be able to say you can help the local car dealership. You can help the dental shop that, right now, probably has no way to query its own records through a local model, because of HIPAA. The implementation is on the ground: come in with a Mac Mini, set it on the desk, and be able to say the data never leaves right here.
+An operator we interviewed was clear about where the work actually is. A lot of it is going to be local. You have to be able to say you can help the local car dealership. You can help the dental shop that, right now, probably has no way to query its own records through a local model, because of HIPAA. The implementation is on the ground: come in with a Mac Mini, set it on the desk, and be able to say the data never leaves right here.
 
 That is not a small-market anecdote. It is the shape of a page that converts. The McKinsey-shaped page says you do transformation. The useful page says who it is for, what is stuck, and what never leaves the building.
 
@@ -70,6 +70,6 @@ Then search the phrase a local buyer would actually type, including the constrai
 
 ## See which local searches you're missing
 
-The buyers who can hire you are searching the job and the constraint, not the category you wish you owned. The [15-minute traffic check](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_local-implementation-beats-the-next-mckinsey&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
+The buyers who can hire you are searching the job and the constraint, not the category you wish you owned. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_local-implementation-beats-the-next-mckinsey&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_local-implementation-beats-the-next-mckinsey&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_local-implementation-beats-the-next-mckinsey&utm_content=post_end).

@@ -23,9 +23,9 @@ faqs:
 
 To write content technical buyers won't dismiss, replace adjectives with specifics: how it works, what it connects to, where it falls short and what it costs to run. Let your engineers shape every technical claim, and be honest about trade-offs. Technical readers trust proof, not polish.
 
-A marketing leader I spoke with recently said her first move when joining a company is to make best friends with the engineers, because any technical buyer will sniff out marketing content so quickly, and they'll dismiss your brand immediately.
+A marketing leader we spoke with recently said her first move when joining a company is to make best friends with the engineers, because any technical buyer will sniff out marketing content so quickly, and they'll dismiss your brand immediately.
 
-That matches what I've seen selling to IT and engineering teams. They aren't looking for reasons to like you. They're looking for the first sign you don't know what you're talking about.
+That matches what we've seen selling to IT and engineering teams. They aren't looking for reasons to like you. They're looking for the first sign you don't know what you're talking about.
 
 ## Why fluff costs so much
 
@@ -91,6 +91,6 @@ Take a typical integration page: "Seamlessly connects with your favorite tools."
 
 ## See which technical searches you're missing
 
-Technical buyers search for specific comparisons, integrations and alternatives. The [15-minute traffic check](/15minutes5xtraffic/) shows which of those searches you show up for, and which you don't.
+Technical buyers search for specific comparisons, integrations and alternatives. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those searches you show up for, and which you don't.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

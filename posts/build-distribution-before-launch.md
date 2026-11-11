@@ -23,9 +23,9 @@ faqs:
 
 The best time to build an audience is months before you launch. Start sharing what you're learning about the problem publicly, make the founder the voice of the company, and pair that presence with pages that catch buyers when they search. Launching to nobody is the hardest way to start.
 
-A founder I talked with recently did something most founders don't. A full year before his product went into beta, he started building distribution, even though he'd never built any kind of social presence before. Looking back on his earlier businesses, he said not having that public presence held him back from really scaling.
+A founder we talked with recently did something most founders don't. A full year before his product went into beta, he started building distribution, even though he'd never built any kind of social presence before. Looking back on his earlier businesses, he said not having that public presence held him back from really scaling.
 
-I've said it on the pod before: distribution is the only moat that's left.
+We've said it before: distribution is the only moat that's left.
 
 ## Why launching without an audience is so hard
 
@@ -87,6 +87,6 @@ Two posts a week is enough to start. One shares something you learned from a buy
 
 ## Make sure buyers can find you
 
-When your audience starts looking for you, what will they find for the questions they ask right before they buy? The [15-minute traffic check](/15minutes5xtraffic/) shows which buyer searches you're missing.
+When your audience starts looking for you, what will they find for the questions they ask right before they buy? The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which buyer searches you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).

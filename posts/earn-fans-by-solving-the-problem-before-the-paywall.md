@@ -23,7 +23,7 @@ faqs:
 
 You earn fans, and a place on the shortlist, by solving the buyer's problem before you ask for anything. A trial form, a gated PDF, or a paywall in front of the useful part does the opposite. It asks for trust you have not earned yet.
 
-A sports-tech product leader I interviewed put it in plain language. They got people to become fans of the product by solving a problem for them first, and not asking them to start a trial or hustle through paywalls before they could experience that. For that team, it has been about serving the coaches. Their product serves coaches. The people who feel the problem every week get the fix before anyone is asked to pay.
+A sports-tech product leader we interviewed put it in plain language. They got people to become fans of the product by solving a problem for them first, and not asking them to start a trial or hustle through paywalls before they could experience that. For that team, it has been about serving the coaches. Their product serves coaches. The people who feel the problem every week get the fix before anyone is asked to pay.
 
 That is a product lesson. It is also the content lesson that decides whether a bottom-of-funnel page gets forwarded, ranked, and named when a buyer asks an answer engine who to use.
 
@@ -68,13 +68,13 @@ Keep the call to action. Put it after the answer. People who just watched the pr
 
 When a buyer asks an AI answer engine who to use for a specific situation, the tool builds the reply from pages that state it in the open. It does not fill out your form.
 
-If your clearest account of the problem, the fit, and the limit lives in a deck or behind a trial, you are absent from that answer. The company that published the same account on a normal URL gets named. Often they are not better. They were readable.
+If your clearest account of the problem, the fit, and the limit lives in a deck or behind a trial, you are absent from that answer. The company that published the same account on a normal URL gets named. Often they are not better. They were readable. Tracking whether you get named and publishing the page that gets named are different jobs: [AEO specialist vs SEO agency](/aeo-specialist-vs-seo-agency/).
 
 Take the answer your best sales conversation already gives and put it on the URL that matches the search. Same words the buyer used. No wall in front of them. The call is how someone acts on an answer they already believe, which is a better conversation than one that starts with "so what do you do?"
 
 ## What to do this week
 
-Pick three URLs: a comparison, an alternatives page, and one best-for page. Read each the way a buyer would, with the problem in mind.
+Pick three URLs: a comparison, an alternatives page, and one best-for page. Read each the way a buyer would, with the problem in mind. For SaaS, the set is laid out in [bottom-of-funnel content for SaaS](/bofu-content-for-saas/).
 
 Mark the first moment the page asks for a trial, a demo, or an email before it has solved anything. If that moment comes before a full answer, move one complete answer above it. The trade-off, the fit, and the limit. Not a teaser.
 
@@ -88,6 +88,6 @@ Send the revised page to one recent customer and ask whether they would have for
 
 ## See which problem searches you're missing
 
-The pages that earn the shortlist are the ones that answer a buying search in the open. The [15-minute traffic check](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-fans-by-solving-the-problem-before-the-paywall&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
+The pages that earn the shortlist are the ones that answer a buying search in the open. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-fans-by-solving-the-problem-before-the-paywall&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [See what you're missing](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-fans-by-solving-the-problem-before-the-paywall&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-fans-by-solving-the-problem-before-the-paywall&utm_content=post_end).
