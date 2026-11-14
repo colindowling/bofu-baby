@@ -5,7 +5,7 @@ description: "How to optimize a B2B website with low traffic: skip huge-sample t
 slug: website-decisions-with-low-traffic
 date: 2026-11-14
 topic: map
-cta: 20minute
+cta: 15minutes
 takeaways:
   - "How to optimize a B2B website with low traffic starts with qualitative signals, not a classic A/B test."
   - "Recordings, sales questions and five short page reviews show what to change."

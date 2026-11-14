@@ -96,6 +96,6 @@ Say your homepage calls you "a revenue intelligence platform," LinkedIn says "sa
 
 ## See where you're missing
 
-The searches and questions buyers ask right before they choose are where consistent messaging pays off. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which ones you're missing.
+The searches and questions buyers ask right before they choose are where consistent messaging pays off. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows which ones you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).

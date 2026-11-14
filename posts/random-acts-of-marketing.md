@@ -100,6 +100,6 @@ List every marketing activity planned for the next 90 days. Next to each, write 
 
 ## Not sure what your buyers are searching for?
 
-Start by finding the bottom-of-funnel searches in your market and checking whether you show up for them. That's exactly what the [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows you.
+Start by finding the bottom-of-funnel searches in your market and checking whether you show up for them. That's exactly what the [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).

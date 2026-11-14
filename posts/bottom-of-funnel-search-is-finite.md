@@ -37,6 +37,6 @@ The same delivery runs ten buyer-intent questions against ChatGPT, Perplexity, G
 
 ## Five terms, or all of them
 
-The [free 15-minute call](/15minutes5xtraffic/) gets you your BoFu Autopsy: five high-intent searches, where you are missing from them, and whether the AIs are naming you or a competitor. The Map is the full board: every term, scored, plus the citation baseline.
+The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) gets you: five high-intent searches, where you are missing from them, and whether the AIs are naming you or a competitor. The Map is the full board: every term, scored, plus the citation baseline.
 
 The Map is $1,500. If you go on to the [90-day build](/pricing/), it comes off month one. If you don't continue, you keep it.

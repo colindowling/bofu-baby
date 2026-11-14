@@ -103,6 +103,6 @@ Here's a channel persona: "IT Director, 40s, reads industry blogs, active on Lin
 
 ## Find the questions you're not answering
 
-Each persona's main question usually shows up as a search: comparisons, pricing, alternatives, fit. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those you're missing.
+Each persona's main question usually shows up as a search: comparisons, pricing, alternatives, fit. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).

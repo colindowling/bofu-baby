@@ -54,7 +54,7 @@ video:
 | `slug` | yes | Lowercase hyphenated. Must match the file name. URL is `/blog/<slug>/` |
 | `date` | yes | `YYYY-MM-DD`. Published and modified date. Same-day posts sort by slug |
 | `topic` | yes | `map`, `build`, `call`, or `citation`. See `docs/linking-plan.md` |
-| `cta` | no | `15minutes` (default), `20minute`, or `bofu-map`. Both the mid-article and end blocks use it |
+| `cta` | no | `15minutes` (default) or `bofu-map`. Both the mid-article and end blocks use it. `15minutes` is the free 20 Minute BoFu Autopsy. |
 | `takeaways` | yes | 3 to 6 strings. Rendered in the Key takeaways box |
 | `faqs` | yes | 3 to 5 `{q, a}` items. Visible FAQ and FAQPage JSON-LD, same words |
 | `video` | no | `name`, `description`, `upload_date`, `duration` (`PT5M30S`), and `youtube_id` or both `embed_url` and `thumbnail_url` |
@@ -72,9 +72,7 @@ Call to action links are:
 
 `/15minutes5xtraffic/` or `/bofu-map/` plus `utm_source=bofubaby.com`, `utm_medium=blog`, `utm_campaign=blog_<slug>`, and `utm_content=inbody` or `utm_content=post_end`.
 
-`cta: 20minute` uses that same `/15minutes5xtraffic/` link and those same parameters. The mid-article and end blocks say "20 Minute BoFu Autopsy". The default `15minutes` wording is left unchanged.
-
-The heading and body of the `15minutes` and `bofu-map` blocks are the sentences already used on the homepage and the BoFu Map page. They are not taken from the Markdown file. `20minute` keeps that heading and names the call the 20 Minute BoFu Autopsy.
+The heading and body of the `15minutes` and `bofu-map` blocks are the sentences already used on the homepage and the BoFu Map page. They are not taken from the Markdown file. The `15minutes` block names the call the 20 Minute BoFu Autopsy.
 
 Every post gets the same byline: BoFu, Baby, linked to `/about/`. The BlogPosting `author` is the BoFu, Baby Organization. It is not a front-matter field. Company voice only: no personal names and no first-person singular in posts.
 

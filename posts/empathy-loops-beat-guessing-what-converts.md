@@ -88,6 +88,6 @@ Book two conversations this week. Ask what they searched, what almost stopped th
 
 ## See which pages are still a guess
 
-The damage shows up where buying searches meet a thin or missing page. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_empathy-loops-beat-guessing-what-converts&utm_content=inbody) shows five of those searches, and whether answer engines are naming you.
+The damage shows up where buying searches meet a thin or missing page. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_empathy-loops-beat-guessing-what-converts&utm_content=inbody) shows five of those searches, and whether answer engines are naming you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_empathy-loops-beat-guessing-what-converts&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_empathy-loops-beat-guessing-what-converts&utm_content=post_end).

@@ -90,6 +90,6 @@ Write down the five questions your best customers asked right before they bought
 
 ## See where your buyers are searching
 
-Broad reach is shrinking, and the moments that decide deals are getting more specific. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those searches you're missing and who's winning them today.
+Broad reach is shrinking, and the moments that decide deals are getting more specific. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those searches you're missing and who's winning them today.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).

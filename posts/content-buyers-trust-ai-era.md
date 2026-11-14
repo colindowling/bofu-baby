@@ -92,6 +92,6 @@ Publishing less feels risky. It isn't, if each page answers a real buying questi
 
 ## See where trusted content would pay off
 
-The best place to start is the bottom-of-funnel searches in your market, where buyers are deciding and generic content is easy to beat. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which ones you're missing.
+The best place to start is the bottom-of-funnel searches in your market, where buyers are deciding and generic content is easy to beat. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows which ones you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, written in your voice and built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, written in your voice and built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).

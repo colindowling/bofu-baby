@@ -80,6 +80,6 @@ Company A is the email he gets every day. Company B came to the table with a sol
 
 ## See where the generic line is costing you
 
-The buyers who are ready to choose are searching for the job, and they are asking AI the same way. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_generic-ai-pipeline-promises&utm_content=inbody) shows which of those searches you're missing, and whether the answers name you or the category.
+The buyers who are ready to choose are searching for the job, and they are asking AI the same way. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_generic-ai-pipeline-promises&utm_content=inbody) shows which of those searches you're missing, and whether the answers name you or the category.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_generic-ai-pipeline-promises&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_generic-ai-pipeline-promises&utm_content=post_end).

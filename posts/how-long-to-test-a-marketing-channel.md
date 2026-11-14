@@ -5,7 +5,7 @@ description: "How long to test a marketing channel before quitting: about 90 to 
 slug: how-long-to-test-a-marketing-channel
 date: 2026-11-14
 topic: map
-cta: 20minute
+cta: 15minutes
 takeaways:
   - "How long to test a marketing channel before quitting is about 90 to 100 days for most B2B channels."
   - "Write the window, the budget, the success measure, the early signals and the stop rules before you spend."

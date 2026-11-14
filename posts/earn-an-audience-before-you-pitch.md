@@ -79,6 +79,6 @@ The other motion starts earlier, on the research side. A written paper on a spec
 
 ## See whether that audience can find you
 
-Once someone in the research community wants to know who to consider, they search and they ask an AI. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-an-audience-before-you-pitch&utm_content=inbody) shows which of those buyer questions you're missing from.
+Once someone in the research community wants to know who to consider, they search and they ask an AI. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-an-audience-before-you-pitch&utm_content=inbody) shows which of those buyer questions you're missing from.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-an-audience-before-you-pitch&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-an-audience-before-you-pitch&utm_content=post_end).

@@ -128,7 +128,8 @@
     pending = null;
   });
 
-  /* ---- forms (none live today; ready for when one ships) ---- */
+  /* ---- forms. data-track-on="success" waits for the page to call bbTrack
+        after a real send. The contact form uses contact_form_submit. ---- */
   document.addEventListener("submit", function (ev) {
     var f = ev.target; if (!f || f.tagName !== "FORM") return;
     // stamp hidden attribution fields so the brief gets them
@@ -138,6 +139,7 @@
       if (!i) { i = document.createElement("input"); i.type = "hidden"; i.name = k; f.appendChild(i); }
       i.value = attrib[k];
     });
+    if (attr(f, "data-track-on") === "success") return;
     track(attr(f, "data-track") === "autopsy" ? "autopsy_request" : "contact_form_submit", f, { step: "submit" });
   }, true);
 })();

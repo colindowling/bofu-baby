@@ -88,6 +88,6 @@ Pull your last ten closed-won deals. Write down what they had in common. Then se
 
 ## Find the searches your niche is already making
 
-The fastest way to see whether a niche is worth owning is to look at what those buyers search for and who shows up today. That's exactly what the [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows you.
+The fastest way to see whether a niche is worth owning is to look at what those buyers search for and who shows up today. That's exactly what the [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).
