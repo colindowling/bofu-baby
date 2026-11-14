@@ -77,6 +77,6 @@ The rewrite says there is no five-year clinical study yet. Here is the bench tes
 
 ## See which proof questions you're missing
 
-Buyers search for the evidence, the comparison, and the "is this good enough" question before they book a call. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_no-long-term-study-proxy-proof&utm_content=inbody) shows which of those searches you're missing, and whether the AIs are naming you when they ask.
+Buyers search for the evidence, the comparison, and the "is this good enough" question before they book a call. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_no-long-term-study-proxy-proof&utm_content=inbody) shows which of those searches you're missing, and whether the AIs are naming you when they ask.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_no-long-term-study-proxy-proof&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_no-long-term-study-proxy-proof&utm_content=post_end).

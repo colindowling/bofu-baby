@@ -99,6 +99,6 @@ Say leadership believes the brand should lead with "innovation." Then customer i
 
 ## Start with what buyers search
 
-One of the fastest ways to see how buyers really describe their needs is to look at the searches they make right before they choose. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those you're missing.
+One of the fastest ways to see how buyers really describe their needs is to look at the searches they make right before they choose. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).

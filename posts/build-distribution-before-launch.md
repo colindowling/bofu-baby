@@ -87,6 +87,6 @@ Two posts a week is enough to start. One shares something you learned from a buy
 
 ## Make sure buyers can find you
 
-When your audience starts looking for you, what will they find for the questions they ask right before they buy? The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which buyer searches you're missing.
+When your audience starts looking for you, what will they find for the questions they ask right before they buy? The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows which buyer searches you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).

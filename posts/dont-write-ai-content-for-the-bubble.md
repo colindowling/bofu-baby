@@ -78,6 +78,6 @@ Then ask one customer who is not in your city and not in your group chat to read
 
 ## See which buyer searches you're writing past
 
-The searches that close are the ones typed by people who are not in the bubble. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_dont-write-ai-content-for-the-bubble&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
+The searches that close are the ones typed by people who are not in the bubble. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_dont-write-ai-content-for-the-bubble&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_dont-write-ai-content-for-the-bubble&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_dont-write-ai-content-for-the-bubble&utm_content=post_end).

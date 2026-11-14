@@ -79,6 +79,6 @@ The rewrite leads with the patient who used to take a day off and often did not 
 
 ## See which outcome searches you're missing
 
-The searches that close are often the ones phrased as the end customer's problem, not your feature list. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_sell-the-outcome-for-your-customers-customer&utm_content=inbody) shows which of those you're missing, and whether answer engines describe you that way.
+The searches that close are often the ones phrased as the end customer's problem, not your feature list. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_sell-the-outcome-for-your-customers-customer&utm_content=inbody) shows which of those you're missing, and whether answer engines describe you that way.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_sell-the-outcome-for-your-customers-customer&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_sell-the-outcome-for-your-customers-customer&utm_content=post_end).

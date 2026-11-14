@@ -18,7 +18,7 @@ faqs:
   - q: "Which platforms are in the 200 checks?"
     a: "ChatGPT, Perplexity, Google AI Overviews and Claude."
   - q: "Where can I see whether we are being named?"
-    a: "The free 15-minute call gets you your BoFu Autopsy, which includes whether the AIs are naming you or a competitor. The BoFu Map includes a citation baseline: ten buyer-intent questions across the same four platforms."
+    a: "The free 20 Minute BoFu Autopsy, which includes whether the AIs are naming you or a competitor. The BoFu Map includes a citation baseline: ten buyer-intent questions across the same four platforms."
 ---
 
 ## Named, or not, with no session to show for it
@@ -39,4 +39,4 @@ The pages get written so a model can lift a clean answer out of them. AI answers
 
 Google position and AI citation rate are reported separately. They move independently. It is also why an [AEO specialist and an SEO agency](/aeo-specialist-vs-seo-agency/) end up measuring different things.
 
-A first look at whether you are being named is part of the [free 15-minute BoFu Autopsy](/15minutes5xtraffic/). The full baseline, ten questions across the four platforms, is part of [the BoFu Map](/bofu-map/).
+A first look at whether you are being named is part of the [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/). The full baseline, ten questions across the four platforms, is part of [the BoFu Map](/bofu-map/).

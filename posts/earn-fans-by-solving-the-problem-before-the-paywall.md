@@ -88,6 +88,6 @@ Send the revised page to one recent customer and ask whether they would have for
 
 ## See which problem searches you're missing
 
-The pages that earn the shortlist are the ones that answer a buying search in the open. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-fans-by-solving-the-problem-before-the-paywall&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
+The pages that earn the shortlist are the ones that answer a buying search in the open. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-fans-by-solving-the-problem-before-the-paywall&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-fans-by-solving-the-problem-before-the-paywall&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_earn-fans-by-solving-the-problem-before-the-paywall&utm_content=post_end).

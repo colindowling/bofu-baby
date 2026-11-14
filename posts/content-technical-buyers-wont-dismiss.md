@@ -91,6 +91,6 @@ Take a typical integration page: "Seamlessly connects with your favorite tools."
 
 ## See which technical searches you're missing
 
-Technical buyers search for specific comparisons, integrations and alternatives. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those searches you show up for, and which you don't.
+Technical buyers search for specific comparisons, integrations and alternatives. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows which of those searches you show up for, and which you don't.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).

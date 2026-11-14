@@ -18,6 +18,11 @@ from dataclasses import dataclass, field
 from datetime import date, datetime
 from pathlib import Path
 
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import tracking_util
+
 ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "posts"
 BLOG_DIR = ROOT / "blog"
@@ -41,9 +46,9 @@ TOPICS = {
         "offer": "/pricing/",
     },
     "call": {
-        "label": "The 15-minute Autopsy",
+        "label": "The 20 Minute BoFu Autopsy",
         "hub_href": "/15minutes5xtraffic/",
-        "hub_name": "the free 15-minute Autopsy",
+        "hub_name": "the free 20 Minute BoFu Autopsy",
         "offer": "/15minutes5xtraffic/",
     },
     "citation": {
@@ -69,11 +74,11 @@ CTAS = {
         "path": "/15minutes5xtraffic/",
         "heading": "Want leads who show up <em>ready to buy?</em>",
         "body": (
-            "Start with a free 15-minute call. It gets you your BoFu Autopsy: five high-intent searches "
+            "Start with the free 20 Minute BoFu Autopsy: five high-intent searches "
             "your buyers are making right now, where you're missing from them, and whether "
             "the AIs are naming you or your competitor. Yours to keep either way."
         ),
-        "button": "Book the 15-minute Autopsy",
+        "button": "Book the 20 Minute BoFu Autopsy",
     },
     "bofu-map": {
         "path": "/bofu-map/",
@@ -115,7 +120,7 @@ NAV_LINKS = [
     ("/services/", "Services"),
     ("/pricing/", "Pricing"),
     ("/bofu-map/", "BoFu Map"),
-    ("/15minutes5xtraffic/", "15-min Autopsy"),
+    ("/15minutes5xtraffic/", "20 Minute BoFu Autopsy"),
     ("/about/", "About"),
     ("/blog/", "Resources"),
     ("/contact/", "Contact"),
@@ -127,7 +132,7 @@ NAV_MENU = [
     ("link", "/services/", "Services"),
     ("link", "/pricing/", "Pricing"),
     ("link", "/bofu-map/", "BoFu Map"),
-    ("link", "/15minutes5xtraffic/", "15-min Autopsy"),
+    ("link", "/15minutes5xtraffic/", "20 Minute BoFu Autopsy"),
     (
         "group",
         "company",
@@ -656,7 +661,7 @@ def render_post(post: Post, posts: list[Post]) -> str:
         page = page.replace(f"%%{key}%%", value)
     if "%%" in page:
         raise ValueError(f"unfilled template slot in {post.slug}")
-    return page
+    return with_gsc(page)
 
 
 def index_schema(posts: list[Post]) -> str:
@@ -728,7 +733,7 @@ def render_index(posts: list[Post]) -> str:
     )
     if "%%" in page:
         raise ValueError("unfilled template slot on the blog index")
-    return page
+    return with_gsc(page)
 
 
 def hub_block(topic: str, posts: list[Post]) -> str:
@@ -750,7 +755,7 @@ def hub_block(topic: str, posts: list[Post]) -> str:
     headings = {
         "map": "Notes on <em>the keyword set.</em>",
         "build": "Notes on <em>the build.</em>",
-        "call": "Notes on <em>the 15-minute Autopsy.</em>",
+        "call": "Notes on <em>the 20 Minute BoFu Autopsy.</em>",
     }
     return (
         f'<section id="{topic}-notes" style="padding:72px 0"><div class="wrap">\n'
@@ -996,7 +1001,7 @@ def check_video_slot() -> list[str]:
         faqs=[
             {"q": "Is this published?", "a": "No. This object is built in memory by the checker."},
             {"q": "Does it include a video?", "a": "Yes. The iframe and VideoObject are required when video front matter is present."},
-            {"q": "Where does the CTA go?", "a": "To the 15-minute page, with the blog campaign parameters."},
+            {"q": "Where does the CTA go?", "a": "To the 20 Minute BoFu Autopsy page, with the blog campaign parameters."},
         ],
         body_md="## First\n\nParagraph.\n\n## Second\n\nParagraph.\n",
         video={
@@ -1152,6 +1157,29 @@ def check_unlisted_pages() -> list[str]:
     return errors
 
 
+def with_gsc(page: str) -> str:
+    token = tracking_util.read_token(_SCRIPTS / "gsc-meta.txt")
+    return tracking_util.apply_gsc_meta(page, token)
+
+
+def stamp_gsc_sources() -> None:
+    """Write the Search Console meta into source HTML and the blog templates.
+
+    build_blog.py is what runs on the next post, so the templates have to carry
+    the tag or a rebuild would drop it. No token file means the pages stay as they are.
+    """
+    token = tracking_util.read_token(_SCRIPTS / "gsc-meta.txt")
+    if not token:
+        return
+    paths = [path for path in public_pages() if path.suffix == ".html"]
+    paths.extend(sorted(TEMPLATES.glob("*.html")))
+    for path in paths:
+        text = path.read_text(encoding="utf-8")
+        updated = tracking_util.apply_gsc_meta(text, token)
+        if updated != text:
+            path.write_text(updated, encoding="utf-8")
+
+
 PUBLISH_DIR = ROOT / "_static"
 # Source directories the static host must not upload. Output Directory is unset
 # on this app, so App Platform publishes the first of _static, dist, public, build.
@@ -1197,6 +1225,11 @@ def publish_site() -> int:
         else:
             shutil.copy2(entry, dest)
         copied += 1
+    # Root-level Google HTML-file verification (google*.html) is a public file.
+    # Copy it again so a later change to the skip list cannot drop it.
+    for verification in sorted(ROOT.glob("google*.html")):
+        if verification.is_file() and tracking_util.GSC_FILE_RE.fullmatch(verification.name):
+            shutil.copy2(verification, PUBLISH_DIR / verification.name)
     return copied
 
 
@@ -1216,6 +1249,22 @@ def check_published() -> list[str]:
             errors.append(f"_static/{rel}: contains a personal name")
         if "REPLACE_WITH_GSC_TOKEN" in text or "GSC:" in text:
             errors.append(f"_static/{rel}: still has the GSC verification stub")
+    for verification in sorted(ROOT.glob("google*.html")):
+        if not verification.is_file() or not tracking_util.GSC_FILE_RE.fullmatch(verification.name):
+            continue
+        dest = PUBLISH_DIR / verification.name
+        if not dest.is_file():
+            errors.append(f"_static missing {verification.name}")
+        elif dest.read_bytes() != verification.read_bytes():
+            errors.append(f"_static/{verification.name} does not match the repo root file")
+    token = tracking_util.read_token(_SCRIPTS / "gsc-meta.txt")
+    if token:
+        for path in PUBLISH_DIR.rglob("*.html"):
+            if path.parent == PUBLISH_DIR and tracking_util.GSC_FILE_RE.fullmatch(path.name):
+                continue
+            html_text = path.read_text(encoding="utf-8")
+            if f'content="{token}"' not in html_text:
+                errors.append(f"_static/{path.relative_to(PUBLISH_DIR)}: missing the Search Console meta tag")
     sitemap = (PUBLISH_DIR / "sitemap.xml").read_text(encoding="utf-8")
     for loc in re.findall(r"<loc>(.*?)</loc>", sitemap):
         if not loc.startswith(SITE):
@@ -1231,6 +1280,7 @@ def check_published() -> list[str]:
 def main() -> int:
     try:
         posts = load_posts()
+        stamp_gsc_sources()
         write_all(posts)
         errors = check_output(posts) + check_video_slot() + check_unlisted_pages() + check_public_pages()
         copied = 0

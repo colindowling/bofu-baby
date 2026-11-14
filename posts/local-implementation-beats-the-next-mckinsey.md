@@ -70,6 +70,6 @@ Then search the phrase a local buyer would actually type, including the constrai
 
 ## See which local searches you're missing
 
-The buyers who can hire you are searching the job and the constraint, not the category you wish you owned. The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_local-implementation-beats-the-next-mckinsey&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
+The buyers who can hire you are searching the job and the constraint, not the category you wish you owned. The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_local-implementation-beats-the-next-mckinsey&utm_content=inbody) shows five of those searches, where you're missing, and whether the AIs are naming you.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_local-implementation-beats-the-next-mckinsey&utm_content=post_end).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/?utm_source=blog&utm_medium=internal&utm_campaign=blog_local-implementation-beats-the-next-mckinsey&utm_content=post_end).

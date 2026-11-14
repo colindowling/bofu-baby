@@ -92,6 +92,6 @@ Say your demo form starts asking "How did you hear about us?" After a quarter, a
 
 ## See what buyers find when they look
 
-When a buyer hears your name and goes searching, what do they find for the questions they're asking? The [free 15-minute BoFu Autopsy](/15minutes5xtraffic/) shows you which buyer searches you're missing.
+When a buyer hears your name and goes searching, what do they find for the questions they're asking? The [free 20 Minute BoFu Autopsy](/15minutes5xtraffic/) shows you which buyer searches you're missing.
 
-**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 15-minute BoFu Autopsy](/15minutes5xtraffic/).
+**See the traffic you're missing.** BoFu, Baby builds bottom-of-funnel content engines for B2B companies: 15 money pages and 15 supporting posts in 90 days, built to rank on Google and get you named by ChatGPT. [Get your free 20 Minute BoFu Autopsy](/15minutes5xtraffic/).
