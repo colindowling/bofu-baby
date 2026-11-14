@@ -170,6 +170,7 @@ class Post:
     date: str
     topic: str
     cta: str
+    title_tag: str
     takeaways: list[str]
     faqs: list[dict[str, str]]
     body_md: str
@@ -354,7 +355,10 @@ def load_post(path: Path) -> Post:
         raise ValueError(f"{path.name}: topic must be one of {', '.join(TOPICS)}")
     cta = str(meta.get("cta") or "15minutes")
     if cta not in CTAS:
-        raise ValueError(f"{path.name}: cta must be 15minutes or bofu-map")
+        raise ValueError(f"{path.name}: cta must be one of {', '.join(CTAS)}")
+    title_tag = str(meta.get("title_tag") or meta["title"]).strip()
+    if not title_tag:
+        raise ValueError(f"{path.name}: title_tag is empty")
     takeaways = meta["takeaways"]
     if not isinstance(takeaways, list) or not all(isinstance(item, str) and item.strip() for item in takeaways):
         raise ValueError(f"{path.name}: takeaways must be a list of strings")
@@ -378,6 +382,7 @@ def load_post(path: Path) -> Post:
         date=str(meta["date"]),
         topic=topic,
         cta=cta,
+        title_tag=title_tag,
         takeaways=[str(item).strip() for item in takeaways],
         faqs=clean_faqs,
         body_md=body,
@@ -639,6 +644,7 @@ def render_post(post: Post, posts: list[Post]) -> str:
     replacements = {
         "CANONICAL": f"{SITE}/blog/{post.slug}/",
         "TITLE": esc(post.title),
+        "TITLE_TAG": esc(post.title_tag or post.title),
         "DESCRIPTION": esc(post.description),
         "JSONLD": schema_blocks(post),
         "NAV": nav_html("/blog/"),
@@ -997,6 +1003,7 @@ def check_video_slot() -> list[str]:
         date="2026-10-31",
         topic="call",
         cta="15minutes",
+        title_tag="Example video note",
         takeaways=["One.", "Two.", "Three."],
         faqs=[
             {"q": "Is this published?", "a": "No. This object is built in memory by the checker."},

@@ -65,7 +65,7 @@ Before committing budget or time to anything, ask:
 - Which problem does it speak to?
 - How will we know if it produced pipeline?
 
-If you can't answer all three, pause it. That's not saying no forever. It's saying not yet.
+If you can't answer all three, pause it. That's not saying no forever. It's saying not yet. Pausing is also different from killing a channel a few weeks in. [How long to test a marketing channel before quitting](/blog/how-long-to-test-a-marketing-channel/) is the window to agree on before the spend starts.
 
 ## Measure what matters
 

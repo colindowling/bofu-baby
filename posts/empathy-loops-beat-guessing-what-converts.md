@@ -78,7 +78,7 @@ Share the phrases with whoever writes and whoever sells, dated. When the homepag
 
 Open the comparison or alternatives page with the most serious traffic. Highlight every sentence you cannot trace to a conversation, a support ticket, or time in the product from the last six months. If most of the page lights up, start there.
 
-Book two conversations this week. Ask what they searched, what almost stopped the deal, and which line they skipped. Put one phrase in the first paragraph and answer that objection above the call to action. Ship the edit before you draft anything new.
+Book two conversations this week. Ask what they searched, what almost stopped the deal, and which line they skipped. Put one phrase in the first paragraph and answer that objection above the call to action. Ship the edit before you draft anything new. A quiet site can still make that call. [Website decisions with only hundreds of visitors](/blog/website-decisions-with-low-traffic/) come from recordings, sales questions and a handful of people looking at the page, not from a test you cannot power.
 
 ## Common mistakes
 
