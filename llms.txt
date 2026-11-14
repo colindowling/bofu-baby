@@ -17,6 +17,8 @@
 
 ## Posts
 <!-- posts:start -->
+- [Stop Polishing and Ship: Making Website Decisions With Only Hundreds of Visitors](https://www.bofubaby.com/blog/website-decisions-with-low-traffic/): How to optimize a B2B website with low traffic: skip huge-sample tests, use recordings and sales feedback, and ship clear changes instead of polishing.
+- [How Long Should You Test a Marketing Channel Before You Kill It?](https://www.bofubaby.com/blog/how-long-to-test-a-marketing-channel/): How long to test a marketing channel before quitting: about 90 to 100 days. Set the window first, watch early signals, and judge pipeline at the end.
 - [Sell the Outcome for Your Customer's Customer](https://www.bofubaby.com/blog/sell-the-outcome-for-your-customers-customer/): Your buyer has to explain the purchase to their own customer. Bottom-of-funnel content should tell that story, or the champion has to invent it.
 - [No Long-Term Study Yet? Buyers Need Proxy Proof They Can Trust](https://www.bofubaby.com/blog/no-long-term-study-proxy-proof/): Buyers will not wait years for a study, and they will not trust a bare claim. Here is the proxy proof that holds up in a B2B deal and in an AI answer.
 - [Generic AI Pipeline Promises All Sound the Same](https://www.bofubaby.com/blog/generic-ai-pipeline-promises/): Buyers hear 'AI that builds pipeline and closes deals faster' every day. A specific solution is what gets a reply, a shortlist spot, and an AI citation.
